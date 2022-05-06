@@ -12,6 +12,17 @@ void main(List<String> arguments) {
   print(x.getSaldo());
   x.sacarComCPMF(valor: 2000, cobraCPMF: true);
   print(x.getSaldo());
+
+  x.gerarTaxas();
+  print(x.getSaldo());
+
+  getResume(x);
+  getResume(y);
+}
+
+void getResume(Conta conta) {
+  print(
+      'Olá ${conta.titular} titular da conta ${conta.numeroDaConta}.\nSeu saldo é: ${conta.getSaldo()};');
 }
 
 class Conta {
