@@ -16,11 +16,18 @@ class AppWidget extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return HomeState();
+  }
+}
+
+class HomeState extends State<HomePage> {
   var count = 0;
 
   @override
-  Widget build(covariant Element context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       drawer: const Drawer(),
       appBar: AppBar(title: const Text('Home Page')),
@@ -31,13 +38,36 @@ class HomePage extends StatelessWidget {
         onPressed: () {
           print('Click');
           count++;
-          context.markNeedsBuild();
+          setState(() {});
         },
         child: const Icon(Icons.add),
       ),
     );
   }
 }
+
+// class HomePage extends StatelessWidget {
+//   var count = 0;
+
+//   @override
+//   Widget build(covariant Element context) {
+//     return Scaffold(
+//       drawer: const Drawer(),
+//       appBar: AppBar(title: const Text('Home Page')),
+//       body: Center(
+//         child: Text('Masterclass $count'),
+//       ),
+//       floatingActionButton: FloatingActionButton(
+//         onPressed: () {
+//           print('Click');
+//           count++;
+//           context.markNeedsBuild();
+//         },
+//         child: const Icon(Icons.add),
+//       ),
+//     );
+//   }
+// }
 
 // class AppWidget extends Widget {
 //   @override
