@@ -1,50 +1,50 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
+import 'app_widget.dart';
 
 void main() {
   runApp(AppWidget());
 }
 
-class AppWidget extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.red),
-      home: HomePage(),
-    );
-  }
-}
+// class AppWidget extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       theme: ThemeData(primarySwatch: Colors.red),
+//       home: HomePage(),
+//     );
+//   }
+// }
 
-class HomePage extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() {
-    return HomeState();
-  }
-}
+// class HomePage extends StatefulWidget {
+//   @override
+//   State<StatefulWidget> createState() {
+//     return HomeState();
+//   }
+// }
 
-class HomeState extends State<HomePage> {
-  var count = 0;
+// class HomeState extends State<HomePage> {
+//   var count = 0;
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      drawer: const Drawer(),
-      appBar: AppBar(title: const Text('Home Page')),
-      body: Center(
-        child: Text('Masterclass $count'),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print('Click');
-          count++;
-          setState(() {});
-        },
-        child: const Icon(Icons.add),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       drawer: const Drawer(),
+//       appBar: AppBar(title: const Text('Home Page')),
+//       body: Center(
+//         child: Text('Masterclass $count'),
+//       ),
+//       floatingActionButton: FloatingActionButton(
+//         onPressed: () {
+//           print('Click');
+//           setState(() {
+//             count++;
+//           });
+//         },
+//         child: const Icon(Icons.add),
+//       ),
+//     );
+//   }
+// }
 
 // class HomePage extends StatelessWidget {
 //   var count = 0;
