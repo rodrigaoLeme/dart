@@ -14,25 +14,38 @@ class HomeState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-        child: Center(
-      child: Container(
-        color: Colors.red,
-        width: 300,
-        height: 300,
-        alignment: Alignment.center,
-        transformAlignment: Alignment.center,
-        transform: Matrix4.identity()..rotateZ(pi / 4),
-        child: Container(
-          //color: Colors.green,
-          width: 150,
-          height: 150,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(75),
-            color: Colors.green,
-          ),
-        ),
+    final mediaQuery = MediaQuery.of(context);
+
+    return Scaffold(
+      body: SizedBox(
+        width: mediaQuery.size.width,
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                color: Colors.red,
+                width: 50,
+                height: 50,
+              ),
+              //SizedBox(height: 10),
+              Container(
+                color: Colors.green,
+                width: 50,
+                height: 50,
+              ),
+              Container(
+                color: Colors.yellow,
+                width: 50,
+                height: 50,
+              ),
+              Container(
+                color: Colors.black,
+                width: 50,
+                height: 50,
+              )
+            ]),
       ),
-    ));
+    );
   }
 }
