@@ -4,7 +4,8 @@ import 'app_widget.dart';
 void main() {
   //runApp(AppWidget());
   //runApp(const AppWidgetAnimation());
-  runApp(const AppWidgetExplicitAnimation());
+  //runApp(const AppWidgetExplicitAnimation());
+  runApp(const AppWidgetButtonAnimation());
 }
 
 // class AppWidget extends StatelessWidget {
