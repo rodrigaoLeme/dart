@@ -1,0 +1,8205 @@
+{
+   "name":"Completo",
+   "days":[
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Psaumes 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":0,
+            "reference":"Préface"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Psaumes 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":1,
+            "reference":"L’origine du mal"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  7,
+                  8
+               ],
+               "reference":"Psaumes 7-8"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  1
+               ],
+               "reference":"Genèse 1"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":2,
+            "reference":"La création"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  9,
+                  10
+               ],
+               "reference":"Psaumes 9-10"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  2
+               ],
+               "reference":"Genèse 2"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":9,
+            "reference":"La semaine primitive"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  11,
+                  12
+               ],
+               "reference":"Psaumes 11-12"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  3
+               ],
+               "reference":"Genèse 3"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":3,
+            "reference":"La tentation et la chute"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  13,
+                  14,
+                  15,
+                  16
+               ],
+               "reference":"Psaumes 13-16"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":4,
+            "reference":"Le plan de la rédemption"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  17,
+                  18
+               ],
+               "reference":"Psaumes 17-18"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  4
+               ],
+               "reference":"Genèse 4"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":5,
+            "reference":"Caïn et Abel"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  19,
+                  20
+               ],
+               "reference":"Psaumes 19-20"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  5
+               ],
+               "reference":"Genèse 5"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":6,
+            "reference":"Seth et Hénoc"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  21,
+                  22
+               ],
+               "reference":"Psaumes 21-22"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  6,
+                  7
+               ],
+               "reference":"Genèse 6-7"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":7,
+            "reference":"Le déluge"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  23
+               ],
+               "reference":"Psaumes 23"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Genèse 8-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":8,
+            "reference":"Après le déluge"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  24
+               ],
+               "reference":"Psaumes 24"
+            },
+            {
+               "book":0,
+               "chapters":[
+                  11
+               ],
+               "reference":"Genèse 11"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":10,
+            "reference":"La tour de Babel"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  12
+               ],
+               "reference":"Genèse 12"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":11,
+            "reference":"L’appel d’Abraham"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+               ],
+               "reference":"Genèse 13-18"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":12,
+            "reference":"Abraham en Canaan"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  20,
+                  21,
+                  22
+               ],
+               "reference":"Genèse 20-22"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":13,
+            "reference":"Le sacrifice d’Isaac"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  19
+               ],
+               "reference":"Genèse 19"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":14,
+            "reference":"La destruction de Sodome"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  23,
+                  24
+               ],
+               "reference":"Genèse 23-24"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":15,
+            "reference":"Le mariage d’Isaac"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  25,
+                  26,
+                  27
+               ],
+               "reference":"Genèse 25-27"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":16,
+            "reference":"Jacob et Esaü"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  28,
+                  29,
+                  30,
+                  31
+               ],
+               "reference":"Genèse 28-31"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":17,
+            "reference":"L’exil de Jacob"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  32,
+                  33
+               ],
+               "reference":"Genèse 32-33"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":18,
+            "reference":"La lutte nocturne"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  34,
+                  35,
+                  36,
+                  37,
+                  38
+               ],
+               "reference":"Genèse 34-38"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":19,
+            "reference":"Le retour de Jacob en Canaan"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  39,
+                  40,
+                  41
+               ],
+               "reference":"Genèse 39-41"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":20,
+            "reference":"Joseph en Egypte"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":0,
+               "chapters":[
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+               ],
+               "reference":"Genèse 42-50"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":21,
+            "reference":"Joseph et ses frères"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Exode 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":22,
+            "reference":"Moïse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Exode 5-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":23,
+            "reference":"Les plaies d’Egypte"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  11,
+                  12
+               ],
+               "reference":"Exode 11-12"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":24,
+            "reference":"La Pâque"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  13,
+                  14,
+                  15
+               ],
+               "reference":"Exode 13-15"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":25,
+            "reference":"L’exode"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  16,
+                  17,
+                  18
+               ],
+               "reference":"Exode 16-18"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":26,
+            "reference":"De la mer Rouge au Sinaï"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  19,
+                  20,
+                  21,
+                  22
+               ],
+               "reference":"Exode 19-22"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":27,
+            "reference":"La loi proclamée au Sinaï"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+               ],
+               "reference":"Exode 23-31"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  32,
+                  33,
+                  34
+               ],
+               "reference":"Exode 32-34"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":28,
+            "reference":"L’idolâtrie au Sinaï"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  35
+               ],
+               "reference":"Exode 35"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":29,
+            "reference":"Satan et la loi de Dieu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":1,
+               "chapters":[
+                  36,
+                  37,
+                  38,
+                  39,
+                  40
+               ],
+               "reference":"Exode 36-40"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":30,
+            "reference":"Le sanctuaire et son rituel"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":2,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+               ],
+               "reference":"Lévitique 1-7"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":2,
+               "chapters":[
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Lévitique 8-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":31,
+            "reference":"Nadab et Abihu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":2,
+               "chapters":[
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20
+               ],
+               "reference":"Lévitique 11-20"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":32,
+            "reference":"La loi et les alliances"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"Nombres 1-9"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  10,
+                  11,
+                  12
+               ],
+               "reference":"Nombres 10-12"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":33,
+            "reference":"Du Sinaï à Kadès"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  13,
+                  14,
+                  15
+               ],
+               "reference":"Nombres 13-15"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":34,
+            "reference":"Les douze espions"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  16,
+                  17
+               ],
+               "reference":"Nombres 16-17"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":35,
+            "reference":"La révolte de Coré"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  18,
+                  19
+               ],
+               "reference":"Nombres 18-19"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":36,
+            "reference":"Israël au désert"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  20,
+                  29,
+                  30
+               ],
+               "reference":"Nombres 20;29-30"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":37,
+            "reference":"Le rocher symbolique - Moïse à Kadès"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  21,
+                  31,
+                  32,
+                  33
+               ],
+               "reference":"Nombres 21:1-30;31-33"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":38,
+            "reference":"Le contour de I’Idumée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  21,
+                  34,
+                  35,
+                  36
+               ],
+               "reference":"Nombres 21:31-35;34-36"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":39,
+            "reference":"La conquête de Basan"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  22,
+                  23,
+                  24
+               ],
+               "reference":"Nombres 22-24"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":40,
+            "reference":"Balaam"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  25,
+                  26,
+                  27,
+                  28
+               ],
+               "reference":"Nombres 25-28"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":41,
+            "reference":"L’apostasie au Jourdain"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":4,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Deutéronome 1-6"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":42,
+            "reference":"La loi de Moïse récapitulée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":4,
+               "chapters":[
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+               ],
+               "reference":"Deutéronome 7-13"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":4,
+               "chapters":[
+                  14,
+                  15,
+                  16,
+                  17
+               ],
+               "reference":"Deutéronome 14-17"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":4,
+               "chapters":[
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29
+               ],
+               "reference":"Deutéronome 18-29"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":4,
+               "chapters":[
+                  30,
+                  31,
+                  32,
+                  33,
+                  34
+               ],
+               "reference":"Deutéronome 30-34"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":43,
+            "reference":"Mort de Moïse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":5,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Josué 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":44,
+            "reference":"Le passage du Jourdain"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":5,
+               "chapters":[
+                  5,
+                  6,
+                  7
+               ],
+               "reference":"Josué 5-7"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":45,
+            "reference":"La prise de Jéricho"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":5,
+               "chapters":[
+                  8
+               ],
+               "reference":"Josué 8"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":46,
+            "reference":"L’assemblée de Sichem"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":5,
+               "chapters":[
+                  9,
+                  10
+               ],
+               "reference":"Josué 9-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":47,
+            "reference":"L’alliance avec les Gabaonites"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":5,
+               "chapters":[
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+               ],
+               "reference":"Josué 11-22"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":48,
+            "reference":"Le partage de Canaan"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":5,
+               "chapters":[
+                  23,
+                  24
+               ],
+               "reference":"Josué 23-24"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":49,
+            "reference":"Dernières paroles de Josué"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":3,
+               "chapters":[
+                  18
+               ],
+               "reference":"Nombres 18:21-32"
+            },
+            {
+               "book":2,
+               "chapters":[
+                  27
+               ],
+               "reference":"Lévitique 27:30-34"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":50,
+            "reference":"Les dîmes et les offrandes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":2,
+               "chapters":[
+                  25,
+                  26,
+                  27
+               ],
+               "reference":"Lévitique 25-27"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":51,
+            "reference":"Le soin des pauvres"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":2,
+               "chapters":[
+                  21,
+                  22,
+                  23,
+                  24
+               ],
+               "reference":"Lévitique 21-24"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":52,
+            "reference":"Les fêtes annuelles"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":6,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"Juges 1-5"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":6,
+               "chapters":[
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+               ],
+               "reference":"Juges 6-12"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":53,
+            "reference":"Les premiers juges"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":6,
+               "chapters":[
+                  13,
+                  14,
+                  15,
+                  16
+               ],
+               "reference":"Juges 13-16"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":54,
+            "reference":"Samson"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":6,
+               "chapters":[
+                  17,
+                  18,
+                  19,
+                  20,
+                  21
+               ],
+               "reference":"Juges 17-21"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":7,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"Ruth 1-2"
+            },
+            {
+               "book":8,
+               "chapters":[
+                  1
+               ],
+               "reference":"1 Samuel 1"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":55,
+            "reference":"Samuel enfant"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":7,
+               "chapters":[
+                  3,
+                  4
+               ],
+               "reference":"Ruth 3-4"
+            },
+            {
+               "book":8,
+               "chapters":[
+                  2
+               ],
+               "reference":"1 Samuel 2"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":56,
+            "reference":"Héli et ses fils"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+               ],
+               "reference":"1 Samuel 3-7"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":57,
+            "reference":"L’arche chez les Philistins"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":11,
+               "chapters":[
+                  2,
+                  4
+               ],
+               "reference":"2 Rois 2:15-18;4:38-41"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":58,
+            "reference":"Les écoles de prophètes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+               ],
+               "reference":"1 Samuel 8-12"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":59,
+            "reference":"Le premier roi d’Israël"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  13,
+                  14
+               ],
+               "reference":"1 Samuel 13-14"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":60,
+            "reference":"La présomption de Saül"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  15
+               ],
+               "reference":"1 Samuel 15"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":61,
+            "reference":"Saül rejeté par Dieu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  16
+               ],
+               "reference":"1 Samuel 16"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":62,
+            "reference":"L’onction de David"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  17
+               ],
+               "reference":"1 Samuel 17"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":63,
+            "reference":"David et Goliath"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  34,
+                  57
+               ],
+               "reference":"Psaumes 34;57"
+            },
+            {
+               "book":8,
+               "chapters":[
+                  18,
+                  19,
+                  20,
+                  21,
+                  22
+               ],
+               "reference":"1 Samuel 18-22"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":64,
+            "reference":"David fugitif"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  23,
+                  24,
+                  25,
+                  26
+               ],
+               "reference":"1 Samuel 23-26"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":65,
+            "reference":"Magnanimité de David"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  27,
+                  28
+               ],
+               "reference":"1 Samuel 27-28"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":66,
+            "reference":"Mort de Saül"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  31
+               ],
+               "reference":"1 Samuel 31"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":67,
+            "reference":"Sorcellerie ancienne et moderne"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":8,
+               "chapters":[
+                  29,
+                  30
+               ],
+               "reference":"1 Samuel 29-30"
+            },
+            {
+               "book":9,
+               "chapters":[
+                  1
+               ],
+               "reference":"2 Samuel 1"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":68,
+            "reference":"Un malheur à Tsiklag"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":9,
+               "chapters":[
+                  2,
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"2 Samuel 2-5"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":69,
+            "reference":"David appelé au trône"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":9,
+               "chapters":[
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"2 Samuel 6-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":70,
+            "reference":"Le règne de David"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  32,
+                  51
+               ],
+               "reference":"Psaumes 32;51"
+            },
+            {
+               "book":9,
+               "chapters":[
+                  11,
+                  12
+               ],
+               "reference":"2 Samuel 11-12"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":71,
+            "reference":"Péché et repentir de David"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  3
+               ],
+               "reference":"Psaumes 3"
+            },
+            {
+               "book":9,
+               "chapters":[
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20
+               ],
+               "reference":"2 Samuel 13-20"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":72,
+            "reference":"La révolte d’Absalom"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  18
+               ],
+               "reference":"Psaumes 18"
+            },
+            {
+               "book":9,
+               "chapters":[
+                  21,
+                  22,
+                  23,
+                  24
+               ],
+               "reference":"2 Samuel 21-24"
+            }
+         ],
+         "egwReading":{
+            "book":"PP",
+            "chapter":73,
+            "reference":"Dernières années de David"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":10,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"1 Rois 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":0,
+            "reference":"Introduction - Le vignoble du Seigneur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  1
+               ],
+               "reference":"2 Chroniques 1"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  2,
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"1 Rois 2-5"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":1,
+            "reference":"Salomon"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  2
+               ],
+               "reference":"2 Chroniques 2"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  6,
+                  7,
+                  8
+               ],
+               "reference":"1 Rois 6-8"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":2,
+            "reference":"Le temple et sa dédicace"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  3
+               ],
+               "reference":"2 Chroniques 3"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  9,
+                  10
+               ],
+               "reference":"1 Rois 9-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":3,
+            "reference":"Orgueil dans la prospérité"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  4,
+                  5
+               ],
+               "reference":"2 Chroniques 4-5"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  11
+               ],
+               "reference":"1 Rois 11"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":4,
+            "reference":"Conséquences de la transgression"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  6,
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"2 Chroniques 6-9"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":5,
+            "reference":"Repentance de Salomon"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":10,
+               "chapters":[
+                  12,
+                  13
+               ],
+               "reference":"1 Rois 12-13"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":6,
+            "reference":"Division du royaume"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  10,
+                  11
+               ],
+               "reference":"2 Chroniques 10-11"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  14
+               ],
+               "reference":"1 Rois 14"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":7,
+            "reference":"Jéroboam"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  12
+               ],
+               "reference":"2 Chroniques 12"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  15,
+                  16
+               ],
+               "reference":"1 Rois 15-16"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":8,
+            "reference":"L’apostasie nationale"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  13,
+                  14
+               ],
+               "reference":"2 Chroniques 13-14"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  17
+               ],
+               "reference":"1 Rois 17"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":9,
+            "reference":"Elie, le Thischbite"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  15,
+                  16
+               ],
+               "reference":"2 Chroniques 15-16"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  18
+               ],
+               "reference":"1 Rois 18:1-19"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":10,
+            "reference":"Sévères paroles de reproche"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  17,
+                  18,
+                  19
+               ],
+               "reference":"2 Chroniques 17-19"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  18
+               ],
+               "reference":"1 Rois 18:20-46"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":11,
+            "reference":"Le mont Carmel"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  20,
+                  21
+               ],
+               "reference":"2 Chroniques 20-21"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  19
+               ],
+               "reference":"1 Rois 19:1-8"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":12,
+            "reference":"De Jizreel à Horeb"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  22,
+                  23
+               ],
+               "reference":"2 Chroniques 22-23"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  19
+               ],
+               "reference":"1 Rois 19:9-21"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":13,
+            "reference":"“Que fais-tu ici?”"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  24,
+                  25,
+                  26,
+                  27
+               ],
+               "reference":"2 Chroniques 24-27"
+            },
+            {
+               "book":10,
+               "chapters":[
+                  20,
+                  21,
+                  22
+               ],
+               "reference":"1 Rois 20-22"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":14,
+            "reference":"“Avec l’esprit et la puissance d’Elie”"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"1 Chroniques 1-2"
+            },
+            {
+               "book":13,
+               "chapters":[
+                  17
+               ],
+               "reference":"2 Chroniques 17"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":15,
+            "reference":"Josaphat"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  3,
+                  4
+               ],
+               "reference":"1 Chroniques 3-4"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  10
+               ],
+               "reference":"2 Rois 10"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":16,
+            "reference":"Ruine de la maison d’Achab"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  5
+               ],
+               "reference":"1 Chroniques 5"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  1
+               ],
+               "reference":"2 Rois 1"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  2
+               ],
+               "reference":"2 Rois 2:1-18"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":17,
+            "reference":"L’appel d’Elisée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  12
+               ],
+               "reference":"1 Chroniques 12"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  2
+               ],
+               "reference":"2 Rois 2:19-25"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":18,
+            "reference":"Elisée assainit les eaux du Jourdain"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  13,
+                  14
+               ],
+               "reference":"1 Chroniques 13-14"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  3,
+                  4
+               ],
+               "reference":"2 Rois 3-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":19,
+            "reference":"Un prophète de paix"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":11,
+               "chapters":[
+                  5,
+                  6,
+                  7,
+                  8
+               ],
+               "reference":"2 Rois 5-8"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":20,
+            "reference":"Naaman"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":11,
+               "chapters":[
+                  9,
+                  10,
+                  11
+               ],
+               "reference":"2 Rois 9-11"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":21,
+            "reference":"Fin du ministère d’Elisée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":31,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Jonas 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":22,
+            "reference":"Ninive, la grande ville"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":27,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Osée 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":23,
+            "reference":"La captivité assyrienne"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":11,
+               "chapters":[
+                  12,
+                  13,
+                  14
+               ],
+               "reference":"2 Rois 12-14"
+            },
+            {
+               "book":27,
+               "chapters":[
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Osée 4-10"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":27,
+               "chapters":[
+                  11,
+                  12,
+                  13,
+                  14
+               ],
+               "reference":"Osée 11-14"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":24,
+            "reference":"Détruit par manque de connaissance"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Ésaïe 1-6"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":25,
+            "reference":"L’appel d’Esaïe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  40,
+                  41,
+                  42
+               ],
+               "reference":"Ésaïe 40-42"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":26,
+            "reference":"Voici votre Dieu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  28
+               ],
+               "reference":"2 Chroniques 28"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  15,
+                  16,
+                  17
+               ],
+               "reference":"2 Rois 15-17"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":27,
+            "reference":"Achaz"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  37,
+                  38,
+                  39
+               ],
+               "reference":"Ésaïe 37-39"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  18,
+                  19,
+                  20
+               ],
+               "reference":"2 Rois 18-20"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":28,
+            "reference":"Ezéchias"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  29,
+                  30,
+                  31,
+                  32
+               ],
+               "reference":"2 Chroniques 29-32"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":29,
+            "reference":"Les ambassadeurs de Babylone"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":33,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Nahoum 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":30,
+            "reference":"Délivrance de l’Assyrie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+               ],
+               "reference":"Ésaïe 7-11"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":31,
+            "reference":"Espoir pour les païens"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  33
+               ],
+               "reference":"2 Chroniques 33"
+            },
+            {
+               "book":11,
+               "chapters":[
+                  21,
+                  22,
+                  23
+               ],
+               "reference":"2 Rois 21-23"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":32,
+            "reference":"Manassé et Josias"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  34,
+                  35
+               ],
+               "reference":"2 Chroniques 34-35"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":33,
+            "reference":"Le livre de la loi"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Jérémie 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":34,
+            "reference":"Jérémie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":11,
+               "chapters":[
+                  24,
+                  25
+               ],
+               "reference":"2 Rois 24-25"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":35,
+            "reference":"L’approche du jugement"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":13,
+               "chapters":[
+                  36
+               ],
+               "reference":"2 Chroniques 36"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":36,
+            "reference":"Le dernier roi de Juda"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  36,
+                  37,
+                  38
+               ],
+               "reference":"Jérémie 36-38"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":37,
+            "reference":"La déportation à Babylone"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  29,
+                  30,
+                  31
+               ],
+               "reference":"Jérémie 29-31"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":38,
+            "reference":"Lumière dans les ténèbres"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  6,
+                  7,
+                  8
+               ],
+               "reference":"1 Chroniques 6-8"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  1
+               ],
+               "reference":"Daniel 1"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":39,
+            "reference":"À la cour de Babylone"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  2,
+                  7,
+                  8
+               ],
+               "reference":"Daniel 2;7-8"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":40,
+            "reference":"Le songe de Nebucadnetsar"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  9,
+                  10,
+                  11
+               ],
+               "reference":"1 Chroniques 9-11"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  3
+               ],
+               "reference":"Daniel 3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":41,
+            "reference":"La fournaise ardente"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  12,
+                  13
+               ],
+               "reference":"1 Chroniques 12-13"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  4
+               ],
+               "reference":"Daniel 4"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":42,
+            "reference":"La vraie grandeur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  14,
+                  15
+               ],
+               "reference":"1 Chroniques 14-15"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  5
+               ],
+               "reference":"Daniel 5"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":43,
+            "reference":"Le spectateur invisible"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  16,
+                  17
+               ],
+               "reference":"1 Chroniques 16-17"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  6
+               ],
+               "reference":"Daniel 6"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":44,
+            "reference":"Dans la fosse aux lions"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  18,
+                  19,
+                  20
+               ],
+               "reference":"1 Chroniques 18-20"
+            },
+            {
+               "book":14,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Esdras 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":45,
+            "reference":"Retour de l’exil"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":36,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"Aggée 1-2"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":46,
+            "reference":"Les prophètes de Dieu les assistaient"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":37,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Zacharie 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":47,
+            "reference":"Josué et l’ange"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":37,
+               "chapters":[
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"Zacharie 5-9"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":48,
+            "reference":"Ni par la puissance, ni par la force"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":16,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Esther 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":49,
+            "reference":"Aux jours de la reine Esther"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":14,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Esdras 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":50,
+            "reference":"Esdras, prêtre et scribe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":14,
+               "chapters":[
+                  7,
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Esdras 7-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":51,
+            "reference":"Réveil spirituel"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":15,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"Néhémie 1-2"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":52,
+            "reference":"L’homme de la situation"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":16,
+               "chapters":[
+                  4
+               ],
+               "reference":"Esther 4"
+            },
+            {
+               "book":15,
+               "chapters":[
+                  3,
+                  4
+               ],
+               "reference":"Néhémie 3-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":53,
+            "reference":"Les réparateurs des murailles"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":16,
+               "chapters":[
+                  5,
+                  6,
+                  7
+               ],
+               "reference":"Esther 5-7"
+            },
+            {
+               "book":15,
+               "chapters":[
+                  5
+               ],
+               "reference":"Néhémie 5"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":54,
+            "reference":"Blâme de l’extorsion"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":16,
+               "chapters":[
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Esther 8-10"
+            },
+            {
+               "book":15,
+               "chapters":[
+                  6
+               ],
+               "reference":"Néhémie 6"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":55,
+            "reference":"Complots des païens"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":15,
+               "chapters":[
+                  7,
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Néhémie 7-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":56,
+            "reference":"Lecture solennelle de la loi de Dieu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":15,
+               "chapters":[
+                  11,
+                  12,
+                  13
+               ],
+               "reference":"Néhémie 11-13"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":57,
+            "reference":"Œuvre de réforme"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":37,
+               "chapters":[
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+               ],
+               "reference":"Zacharie 10-14"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":58,
+            "reference":"La venue d’un libérateur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":38,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Malachie 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":59,
+            "reference":"La maison d’Israël"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  63,
+                  64,
+                  65,
+                  66
+               ],
+               "reference":"Ésaïe 63-66"
+            }
+         ],
+         "egwReading":{
+            "book":"PR",
+            "chapter":60,
+            "reference":"Visions de la gloire future"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Marc 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":0,
+            "reference":"Préface"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  12,
+                  13
+               ],
+               "reference":"Ésaïe 12-13"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  1
+               ],
+               "reference":"Matthieu 1"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":1,
+            "reference":"Dieu avec nous"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  14,
+                  15,
+                  16
+               ],
+               "reference":"Ésaïe 14-16"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":2,
+            "reference":"Le peuple élu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  17,
+                  18,
+                  19
+               ],
+               "reference":"Ésaïe 17-19"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":3,
+            "reference":"La plénitude des temps"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  20,
+                  21,
+                  22
+               ],
+               "reference":"Ésaïe 20-22"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  2
+               ],
+               "reference":"Luc 2:1-20"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":4,
+            "reference":"Un Sauveur vous est donné"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  23,
+                  24,
+                  25
+               ],
+               "reference":"Ésaïe 23-25"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  2
+               ],
+               "reference":"Luc 2:21-38"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":5,
+            "reference":"La consécration"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  26,
+                  27,
+                  28
+               ],
+               "reference":"Ésaïe 26-28"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  2
+               ],
+               "reference":"Matthieu 2"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":6,
+            "reference":"Nous avons vu son étoile"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  29,
+                  30
+               ],
+               "reference":"Ésaïe 29-30"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  2
+               ],
+               "reference":"Luc 2:39-40"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":7,
+            "reference":"L’enfance de Jésus"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  31,
+                  32,
+                  33
+               ],
+               "reference":"Ésaïe 31-33"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  2
+               ],
+               "reference":"Luc 2:41-52"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":8,
+            "reference":"Visite de Pâque"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  34,
+                  35,
+                  36
+               ],
+               "reference":"Ésaïe 34-36"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":9,
+            "reference":"Jours de lutte"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  38,
+                  39,
+                  40,
+                  41,
+                  42
+               ],
+               "reference":"Ésaïe 38-42"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  3
+               ],
+               "reference":"Matthieu 3:1-12"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  1
+               ],
+               "reference":"Luc 1"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":10,
+            "reference":"Une voix dans le désert"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  43,
+                  44,
+                  45
+               ],
+               "reference":"Ésaïe 43-45"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  3
+               ],
+               "reference":"Matthieu 3:13-17"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":11,
+            "reference":"Le baptême"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  46
+               ],
+               "reference":"Ésaïe 46"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  4
+               ],
+               "reference":"Matthieu 4"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":12,
+            "reference":"La tentation"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  47,
+                  48,
+                  49
+               ],
+               "reference":"Ésaïe 47-49"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  4
+               ],
+               "reference":"Luc 4:1-13"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":13,
+            "reference":"La victoire"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  50,
+                  51
+               ],
+               "reference":"Ésaïe 50-51"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  1
+               ],
+               "reference":"Jean 1"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":14,
+            "reference":"Nous avons trouvé le Messie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  52,
+                  53
+               ],
+               "reference":"Ésaïe 52-53"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  2
+               ],
+               "reference":"Jean 2:1-11"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":15,
+            "reference":"Au repas de noces"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  54,
+                  55,
+                  56,
+                  57,
+                  58,
+                  59
+               ],
+               "reference":"Ésaïe 54-59"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  2
+               ],
+               "reference":"Jean 2:12-25"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":16,
+            "reference":"Dans son temple"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":22,
+               "chapters":[
+                  60,
+                  61,
+                  62,
+                  63,
+                  64,
+                  65,
+                  66
+               ],
+               "reference":"Ésaïe 60-66"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  3
+               ],
+               "reference":"Jean 3:1-17"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":17,
+            "reference":"Nicodème"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Jérémie 4-6"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  3
+               ],
+               "reference":"Jean 3:18-36"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":18,
+            "reference":"Il faut qu’il croisse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  7,
+                  8
+               ],
+               "reference":"Jérémie 7-8"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  4
+               ],
+               "reference":"Jean 4:1-42"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":19,
+            "reference":"Près du puits de Jacob"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  9,
+                  10,
+                  11
+               ],
+               "reference":"Jérémie 9-11"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  4
+               ],
+               "reference":"Jean 4:43-54"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":20,
+            "reference":"Si vous ne voyez des miracles"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  12,
+                  13
+               ],
+               "reference":"Jérémie 12-13"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  5
+               ],
+               "reference":"Jean 5"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":21,
+            "reference":"Béthesda et le sanhédrin"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  14,
+                  15
+               ],
+               "reference":"Jérémie 14-15"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  5
+               ],
+               "reference":"Marc 5"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  6
+               ],
+               "reference":"Marc 6:1-29"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":22,
+            "reference":"Emprisonnement et mort de Jean"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  15,
+                  16,
+                  17
+               ],
+               "reference":"Matthieu 15-17"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":23,
+            "reference":"Le royaume de Dieu est proche"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  3,
+                  4
+               ],
+               "reference":"Luc 3;4:14-44"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":24,
+            "reference":"N’est-il pas le fils du charpentier?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  16,
+                  17,
+                  18
+               ],
+               "reference":"Jérémie 16-18"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  5
+               ],
+               "reference":"Luc 5:1-11"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":25,
+            "reference":"L’appel des disciples"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  19,
+                  20,
+                  21
+               ],
+               "reference":"Jérémie 19-21"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":26,
+            "reference":"À Capernaüm"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  22,
+                  23,
+                  24
+               ],
+               "reference":"Jérémie 22-24"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  5
+               ],
+               "reference":"Luc 5:12-26"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":27,
+            "reference":"Tu peux me rendre pur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  25,
+                  26
+               ],
+               "reference":"Jérémie 25-26"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  5
+               ],
+               "reference":"Luc 5:27-39"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":28,
+            "reference":"Lévi-Matthieu"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  6
+               ],
+               "reference":"Luc 6:1-11"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  12
+               ],
+               "reference":"Matthieu 12:1-14"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":29,
+            "reference":"Le Sabbat"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  27,
+                  28
+               ],
+               "reference":"Jérémie 27-28"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  3
+               ],
+               "reference":"Marc 3:13-19"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":30,
+            "reference":"Il en désigna douze"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  5,
+                  6,
+                  7
+               ],
+               "reference":"Matthieu 5-7"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":31,
+            "reference":"Le sermon sur la montagne"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  8,
+                  9
+               ],
+               "reference":"Matthieu 8-9"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  7
+               ],
+               "reference":"Luc 7"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":32,
+            "reference":"Le centenier"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  10,
+                  12,
+                  14
+               ],
+               "reference":"Matthieu 10;12:15-50;14"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":33,
+            "reference":"Qui sont mes frères?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  32,
+                  33,
+                  34
+               ],
+               "reference":"Jérémie 32-34"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  11
+               ],
+               "reference":"Matthieu 11:1-30"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":34,
+            "reference":"L’invitation"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  35,
+                  36,
+                  37,
+                  38
+               ],
+               "reference":"Jérémie 35-38"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  8
+               ],
+               "reference":"Luc 8:1-39"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":35,
+            "reference":"Silence, apaise-toi!"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  39,
+                  40,
+                  41
+               ],
+               "reference":"Jérémie 39-41"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  5
+               ],
+               "reference":"Marc 5:21-43"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":36,
+            "reference":"L’attouchement de la foi"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  42,
+                  43
+               ],
+               "reference":"Jérémie 42-43"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  10
+               ],
+               "reference":"Matthieu 10"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":37,
+            "reference":"Les premiers évangélistes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  44,
+                  45
+               ],
+               "reference":"Jérémie 44-45"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  6
+               ],
+               "reference":"Marc 6:29-56"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":38,
+            "reference":"Venez à l’écart ... et reposez-vous"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  46,
+                  47
+               ],
+               "reference":"Jérémie 46-47"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  6
+               ],
+               "reference":"Jean 6:1-15"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":39,
+            "reference":"Donnez-leur vous-mêmes à manger"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  48,
+                  49,
+                  50
+               ],
+               "reference":"Jérémie 48-50"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  6
+               ],
+               "reference":"Jean 6:16-21"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":40,
+            "reference":"Une nuit sur le lac"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":23,
+               "chapters":[
+                  51,
+                  52
+               ],
+               "reference":"Jérémie 51-52"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  6
+               ],
+               "reference":"Jean 6:22-71"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":41,
+            "reference":"La crise de la Galilée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":24,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"Lamentations 1-2"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  7
+               ],
+               "reference":"Marc 7:1-23"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":42,
+            "reference":"La tradition"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":24,
+               "chapters":[
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"Lamentations 3-5"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  7
+               ],
+               "reference":"Marc 7:24-37"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":43,
+            "reference":"Barrières renversées"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Ézéchiel 1-3"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  8
+               ],
+               "reference":"Marc 8:1-21"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":44,
+            "reference":"Le véritable signe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Ézéchiel 4-6"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  8
+               ],
+               "reference":"Marc 8:22-38"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":45,
+            "reference":"Représentation anticipée de la croix"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"Ézéchiel 7-9"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  9
+               ],
+               "reference":"Luc 9:28-36"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":46,
+            "reference":"Il fut transfiguré"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  10,
+                  11
+               ],
+               "reference":"Ézéchiel 10-11"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  9
+               ],
+               "reference":"Luc 9:37-45"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":47,
+            "reference":"Ministère"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  12,
+                  13,
+                  14
+               ],
+               "reference":"Ézéchiel 12-14"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  9
+               ],
+               "reference":"Marc 9:30-50"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  9
+               ],
+               "reference":"Luc 9:46-48"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":48,
+            "reference":"Qui est le plus grand?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  15,
+                  16
+               ],
+               "reference":"Ézéchiel 15-16"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  7
+               ],
+               "reference":"Jean 7:1-15, 37-39"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":49,
+            "reference":"À la fête des tabernacles"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":42,
+               "chapters":[
+                  7,
+                  8
+               ],
+               "reference":"Jean 7:16-53;8:1-11"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":50,
+            "reference":"Parmi les pièges"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  19,
+                  20
+               ],
+               "reference":"Ézéchiel 19-20"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  8
+               ],
+               "reference":"Jean 8:12-59"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  9
+               ],
+               "reference":"Jean 9:1-41"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":51,
+            "reference":"La lumière de la vie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  21,
+                  22
+               ],
+               "reference":"Ézéchiel 21-22"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  10
+               ],
+               "reference":"Jean 10"
+            },
+            {
+               "book":18,
+               "chapters":[
+                  23
+               ],
+               "reference":"Psaumes 23"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":52,
+            "reference":"Le divin Berger"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  23,
+                  24,
+                  25
+               ],
+               "reference":"Ézéchiel 23-25"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  9
+               ],
+               "reference":"Luc 9:46-62"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":53,
+            "reference":"Le départ définitif de la Galilée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  26,
+                  27
+               ],
+               "reference":"Ézéchiel 26-27"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  10
+               ],
+               "reference":"Luc 10"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":54,
+            "reference":"Le bon Samaritain"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  28,
+                  29
+               ],
+               "reference":"Ézéchiel 28-29"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  17
+               ],
+               "reference":"Luc 17"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":55,
+            "reference":"Sans attirer l’attention"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  30,
+                  31
+               ],
+               "reference":"Ézéchiel 30-31"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  19
+               ],
+               "reference":"Matthieu 19:1-15"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":56,
+            "reference":"Jésus bénissant les enfants"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  32,
+                  33,
+                  34
+               ],
+               "reference":"Ézéchiel 32-34"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  19
+               ],
+               "reference":"Matthieu 19:16-30"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  18
+               ],
+               "reference":"Luc 18:23"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":57,
+            "reference":"Il te manque une chose"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  35,
+                  36
+               ],
+               "reference":"Ézéchiel 35-36"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  11
+               ],
+               "reference":"Jean 11:1-46"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":58,
+            "reference":"Lazare, sors!"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  37,
+                  38,
+                  39
+               ],
+               "reference":"Ézéchiel 37-39"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  11
+               ],
+               "reference":"Jean 11:47-57"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":59,
+            "reference":"Complot de prêtres"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  40,
+                  41,
+                  42
+               ],
+               "reference":"Ézéchiel 40-42"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  10
+               ],
+               "reference":"Marc 10:32-45"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":60,
+            "reference":"La loi du nouveau royaume"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  8,
+                  19
+               ],
+               "reference":"Luc 8:40-56;19"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":61,
+            "reference":"Zachée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  43,
+                  44,
+                  45
+               ],
+               "reference":"Ézéchiel 43-45"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  12
+               ],
+               "reference":"Jean 12:1-11"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  7
+               ],
+               "reference":"Luc 7:36-50"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":62,
+            "reference":"Dans la maison de Simon"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":25,
+               "chapters":[
+                  46,
+                  47,
+                  48
+               ],
+               "reference":"Ézéchiel 46-48"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  12
+               ],
+               "reference":"Jean 12:12-19"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  19
+               ],
+               "reference":"Luc 19:29-40"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":63,
+            "reference":"Ton roi vient"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":28,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Joël 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":64,
+            "reference":"Un peuple condamné"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  19
+               ],
+               "reference":"Luc 19:45-48"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  21
+               ],
+               "reference":"Matthieu 21:12-17"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  11
+               ],
+               "reference":"Marc 11:15-19"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":65,
+            "reference":"Le temple purifié à nouveau"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":29,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Amos 1-4"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  20
+               ],
+               "reference":"Luc 20:19-47"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":66,
+            "reference":"Controverses"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  6
+               ],
+               "reference":"Luc 6:12-49"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  23
+               ],
+               "reference":"Matthieu 23"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  12
+               ],
+               "reference":"Marc 12"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":67,
+            "reference":"Malheur à vous, pharisiens!"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":29,
+               "chapters":[
+                  5,
+                  6,
+                  7
+               ],
+               "reference":"Amos 5-7"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  12
+               ],
+               "reference":"Jean 12:20-50"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":68,
+            "reference":"Dans le parvis extérieur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":29,
+               "chapters":[
+                  8,
+                  9
+               ],
+               "reference":"Amos 8-9"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  24
+               ],
+               "reference":"Matthieu 24"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  13
+               ],
+               "reference":"Marc 13"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":69,
+            "reference":"Sur le mont des Oliviers"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":32,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Michée 1-3"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  25
+               ],
+               "reference":"Matthieu 25:31-46"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":70,
+            "reference":"L’un de ces plus petits"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":32,
+               "chapters":[
+                  4,
+                  5
+               ],
+               "reference":"Michée 4-5"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  13
+               ],
+               "reference":"Jean 13:1-20"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":71,
+            "reference":"Serviteur des serviteurs"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  14,
+                  15,
+                  16
+               ],
+               "reference":"Marc 14-16"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":72,
+            "reference":"En mémoire de moi"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":42,
+               "chapters":[
+                  13
+               ],
+               "reference":"Jean 13:31-38"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  14,
+                  15,
+                  16,
+                  17
+               ],
+               "reference":"Jean 14-17"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":73,
+            "reference":"Que votre cœur ne se trouble pas"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":32,
+               "chapters":[
+                  6,
+                  7
+               ],
+               "reference":"Michée 6-7"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  18
+               ],
+               "reference":"Jean 18:1-12"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":74,
+            "reference":"Gethsémané"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":34,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Habacuc 1-3"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  18
+               ],
+               "reference":"Jean 18:13-27"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":75,
+            "reference":"Devant Anne et devant Caïphe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":30,
+               "chapters":[
+                  1
+               ],
+               "reference":"Abdias 1"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  13
+               ],
+               "reference":"Jean 13:21-30"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":76,
+            "reference":"Jude"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Job 1-3"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  18
+               ],
+               "reference":"Jean 18:28-40"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":77,
+            "reference":"Dans le prétoire de Pilate"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  22
+               ],
+               "reference":"Psaumes 22"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  19
+               ],
+               "reference":"Jean 19"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":78,
+            "reference":"Le Calvaire"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  6,
+                  7,
+                  8
+               ],
+               "reference":"Job 6-8"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  19
+               ],
+               "reference":"Jean 19:28-37"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":79,
+            "reference":"Tout est accompli"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  20
+               ],
+               "reference":"Matthieu 20"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  19
+               ],
+               "reference":"Jean 19:38-42"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":80,
+            "reference":"Dans le tombeau de Joseph"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  26,
+                  27,
+                  28
+               ],
+               "reference":"Matthieu 26;27;28:1-10"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":81,
+            "reference":"Le Seigneur est ressuscité"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":39,
+               "chapters":[
+                  28
+               ],
+               "reference":"Matthieu 28:11-15"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  20
+               ],
+               "reference":"Jean 20:1-18"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":82,
+            "reference":"Pourquoi pleures-tu?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  9,
+                  10
+               ],
+               "reference":"Job 9-10"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  24
+               ],
+               "reference":"Luc 24:13-35"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":83,
+            "reference":"Sur le chemin d’Emmaüs"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  11,
+                  12,
+                  13
+               ],
+               "reference":"Job 11-13"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  20
+               ],
+               "reference":"Jean 20:19-31"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":84,
+            "reference":"La paix soit avec vous"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  14,
+                  15
+               ],
+               "reference":"Job 14-15"
+            },
+            {
+               "book":42,
+               "chapters":[
+                  21
+               ],
+               "reference":"Jean 21"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":85,
+            "reference":"Une fois de plus au bord du lac"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  16,
+                  17,
+                  18
+               ],
+               "reference":"Job 16-18"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  28
+               ],
+               "reference":"Matthieu 28:16-20"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":86,
+            "reference":"Allez, enseignez toutes les nations"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24
+               ],
+               "reference":"Job 19-24"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  24
+               ],
+               "reference":"Luc 24:50-53"
+            }
+         ],
+         "egwReading":{
+            "book":"DTN",
+            "chapter":87,
+            "reference":"Vers mon Père et votre Père"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  25,
+                  26,
+                  27
+               ],
+               "reference":"Job 25-27"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:34-35"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":1,
+            "reference":"Du naturel au spirituel"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  28,
+                  29
+               ],
+               "reference":"Job 28-29"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:1-23"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":2,
+            "reference":"Le semeur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  30,
+                  31
+               ],
+               "reference":"Job 30-31"
+            },
+            {
+               "book":40,
+               "chapters":[
+                  4
+               ],
+               "reference":"Marc 4"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":3,
+            "reference":"D’abord l’herbe, puis l’épi"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  32,
+                  33
+               ],
+               "reference":"Job 32-33"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:24-30, 36-43"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":4,
+            "reference":"L’ivraie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  34,
+                  35,
+                  36
+               ],
+               "reference":"Job 34-36"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:31-32"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":5,
+            "reference":"Semblable à un grain de sénevé"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  37,
+                  38,
+                  39
+               ],
+               "reference":"Job 37-39"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":6,
+            "reference":"Autres enseignements tirés des semailles"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":17,
+               "chapters":[
+                  40,
+                  41,
+                  42
+               ],
+               "reference":"Job 40-42"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:33"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":7,
+            "reference":"La quête du royaume"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":35,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Sophonie 1-3"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:44"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":8,
+            "reference":"Le trésor caché"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30
+               ],
+               "reference":"Psaumes 25-30"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:45-46"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":9,
+            "reference":"La perle"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  9
+               ],
+               "reference":"Marc 9:1-19"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:47-50"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":10,
+            "reference":"Le filet"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  10
+               ],
+               "reference":"Marc 10:1-31"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  13
+               ],
+               "reference":"Matthieu 13:51-58"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":11,
+            "reference":"Choses nouvelles et choses anciennes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  10
+               ],
+               "reference":"Marc 10:46-52"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  11
+               ],
+               "reference":"Luc 11"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":12,
+            "reference":"La prière"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  31,
+                  32,
+                  33,
+                  34,
+                  35
+               ],
+               "reference":"Psaumes 31-35"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  18
+               ],
+               "reference":"Luc 18:9-17"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":13,
+            "reference":"Deux adorateurs"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  11
+               ],
+               "reference":"Marc 11:1-14"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  18
+               ],
+               "reference":"Luc 18:1-8"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":14,
+            "reference":"Dieu ne fera-t-il pas justice à ses élus?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41
+               ],
+               "reference":"Psaumes 36-41"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  15
+               ],
+               "reference":"Luc 15:1-10"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":15,
+            "reference":"L’Amour de Dieu a la recherche de l’homme"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":40,
+               "chapters":[
+                  11
+               ],
+               "reference":"Marc 11:21-33"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  15
+               ],
+               "reference":"Luc 15:11-32"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":16,
+            "reference":"Perdu et retrouvé"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47
+               ],
+               "reference":"Psaumes 42-47"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  13
+               ],
+               "reference":"Luc 13"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":17,
+            "reference":"Laisse-le encore cette année"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  48,
+                  49,
+                  50
+               ],
+               "reference":"Psaumes 48-50"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  14
+               ],
+               "reference":"Luc 14"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":18,
+            "reference":"Dans les chemins et le long des haies"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  52,
+                  53
+               ],
+               "reference":"Psaumes 52-53"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  18
+               ],
+               "reference":"Matthieu 18"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":19,
+            "reference":"La mesure du pardon"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  52,
+                  53,
+                  54,
+                  55
+               ],
+               "reference":"Psaumes 52-55"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  12
+               ],
+               "reference":"Luc 12:13-21"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":20,
+            "reference":"Le gain qui est une perte"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  56,
+                  57
+               ],
+               "reference":"Psaumes 56-57"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  16
+               ],
+               "reference":"Luc 16:19-31"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":21,
+            "reference":"Un grand abîme"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  58,
+                  59
+               ],
+               "reference":"Psaumes 58-59"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  21
+               ],
+               "reference":"Matthieu 21:1-32"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":22,
+            "reference":"Dire et faire"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  60,
+                  61,
+                  62
+               ],
+               "reference":"Psaumes 60-62"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  21
+               ],
+               "reference":"Matthieu 21:33-46"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":23,
+            "reference":"La vigne du Seigneur"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  63,
+                  64,
+                  65
+               ],
+               "reference":"Psaumes 63-65"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  22
+               ],
+               "reference":"Matthieu 22"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":24,
+            "reference":"Sans l’habit de noces"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  9
+               ],
+               "reference":"Luc 9:1-27"
+            },
+            {
+               "book":18,
+               "chapters":[
+                  66,
+                  67,
+                  68
+               ],
+               "reference":"Psaumes 66-68"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  25
+               ],
+               "reference":"Matthieu 25:14-30"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":25,
+            "reference":"Les talents"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  69,
+                  70,
+                  71
+               ],
+               "reference":"Psaumes 69-71"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  16
+               ],
+               "reference":"Luc 16:1-18"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":26,
+            "reference":"Les richesses injustes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  72,
+                  73,
+                  74
+               ],
+               "reference":"Psaumes 72-74"
+            },
+            {
+               "book":41,
+               "chapters":[
+                  10
+               ],
+               "reference":"Luc 10:23-37"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":27,
+            "reference":"Qui est mon prochain?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  12,
+                  18
+               ],
+               "reference":"Luc 12:1-12;18:15-43"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":28,
+            "reference":"La récompense de la grâce"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  75,
+                  76,
+                  77,
+                  78,
+                  79,
+                  80
+               ],
+               "reference":"Psaumes 75-80"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  25
+               ],
+               "reference":"Matthieu 25:1-13"
+            }
+         ],
+         "egwReading":{
+            "book":"PJ",
+            "chapter":29,
+            "reference":"A la rencontre de l’Epoux"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  81,
+                  82,
+                  83
+               ],
+               "reference":"Psaumes 81-83"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":0,
+            "reference":"Préface"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  12
+               ],
+               "reference":"Luc 12:22-59"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  28
+               ],
+               "reference":"Matthieu 28:18-20"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":1,
+            "reference":"Le dessein de Dieu à l’égard de son Église"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  84,
+                  85,
+                  86,
+                  87,
+                  88
+               ],
+               "reference":"Psaumes 84-88"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  1
+               ],
+               "reference":"Actes 1:1-11"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":2,
+            "reference":"Le choix des Douze"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  89,
+                  90,
+                  91
+               ],
+               "reference":"Psaumes 89-91"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  1
+               ],
+               "reference":"Actes 1:12-26"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":3,
+            "reference":"La mission des Douze"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  20
+               ],
+               "reference":"Luc 20:1-18"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  2
+               ],
+               "reference":"Actes 2:1-13"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":4,
+            "reference":"La Pentecôte"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  92,
+                  93,
+                  94,
+                  95,
+                  96
+               ],
+               "reference":"Psaumes 92-96"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  2
+               ],
+               "reference":"Actes 2:14-47"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  3
+               ],
+               "reference":"Matthieu 3:11"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":5,
+            "reference":"Le don du Saint-Esprit"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  24
+               ],
+               "reference":"Luc 24:1-13"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  3,
+                  4
+               ],
+               "reference":"Actes 3-4"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":6,
+            "reference":"A la porte du temple"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  97,
+                  98,
+                  99,
+                  100
+               ],
+               "reference":"Psaumes 97-100"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  5
+               ],
+               "reference":"Actes 5:1-11"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":7,
+            "reference":"Un avertissement contre l’hypocrisie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  24
+               ],
+               "reference":"Luc 24:36-53"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  5
+               ],
+               "reference":"Actes 5:12-42"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":8,
+            "reference":"Devant le sanhédrin"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  101,
+                  102,
+                  103,
+                  104
+               ],
+               "reference":"Psaumes 101-104"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  6
+               ],
+               "reference":"Actes 6:1-7"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":9,
+            "reference":"Les sept diacres"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":43,
+               "chapters":[
+                  6
+               ],
+               "reference":"Actes 6:8-15"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  105,
+                  106
+               ],
+               "reference":"Psaumes 105-106"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  7
+               ],
+               "reference":"Actes 7"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":10,
+            "reference":"Le premier martyr"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  107,
+                  108
+               ],
+               "reference":"Psaumes 107-108"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  8
+               ],
+               "reference":"Actes 8"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":11,
+            "reference":"L’Evangile en Samarie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  109,
+                  110
+               ],
+               "reference":"Psaumes 109-110"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  9
+               ],
+               "reference":"Actes 9:1-18"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":12,
+            "reference":"De persécuteur à disciple"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  111,
+                  112,
+                  113
+               ],
+               "reference":"Psaumes 111-113"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  9
+               ],
+               "reference":"Actes 9:19-30"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":13,
+            "reference":"Jours de préparation"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  114,
+                  115
+               ],
+               "reference":"Psaumes 114-115"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  9
+               ],
+               "reference":"Actes 9:31-43"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  10,
+                  11
+               ],
+               "reference":"Actes 10-11"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":14,
+            "reference":"A la recherche de la Vérité"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  116,
+                  117,
+                  118
+               ],
+               "reference":"Psaumes 116-118"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  12
+               ],
+               "reference":"Actes 12"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":15,
+            "reference":"Délivré de prison"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  119
+               ],
+               "reference":"Psaumes 119"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  13
+               ],
+               "reference":"Actes 13:1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":16,
+            "reference":"L’Evangile à Antioche"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  120,
+                  121
+               ],
+               "reference":"Psaumes 120-121"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  13
+               ],
+               "reference":"Actes 13:4-52"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":17,
+            "reference":"Messagers de l’Evangile"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  122,
+                  123,
+                  124
+               ],
+               "reference":"Psaumes 122-124"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  14
+               ],
+               "reference":"Actes 14"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":18,
+            "reference":"L’Evangile chez les païens"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"Romains 1-2"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  15
+               ],
+               "reference":"Actes 15"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":19,
+            "reference":"Juifs et Gentils"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  2,
+                  3
+               ],
+               "reference":"Romains 2-3"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  16
+               ],
+               "reference":"Actes 16:1-5"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":20,
+            "reference":"La Croix exaltée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  4,
+                  5
+               ],
+               "reference":"Romains 4-5"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  16
+               ],
+               "reference":"Actes 16:6-40"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":21,
+            "reference":"L’Evangile en Europe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":51,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"1 Thessaloniciens 1-2"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  17
+               ],
+               "reference":"Actes 17:1-9"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":22,
+            "reference":"Thessalonique"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":45,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"1 Corinthiens 1-3"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  17
+               ],
+               "reference":"Actes 17:10-34"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":23,
+            "reference":"Bérée et Athènes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":45,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"1 Corinthiens 4-6"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  18
+               ],
+               "reference":"Actes 18:1-17"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":24,
+            "reference":"Corinthe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":51,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"1 Thessaloniciens 1-5"
+            },
+            {
+               "book":52,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"2 Thessaloniciens 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":25,
+            "reference":"Les lettres aux Thessaloniciens"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":45,
+               "chapters":[
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"1 Corinthiens 7-9"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  18
+               ],
+               "reference":"Actes 18:18-28"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":26,
+            "reference":"Apollos à Corinthe"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":48,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Éphésiens 1-3"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  19
+               ],
+               "reference":"Actes 19:1-20"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":27,
+            "reference":"Ephèse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":48,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Éphésiens 4-6"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  19
+               ],
+               "reference":"Actes 19:21-41"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":28,
+            "reference":"Jours de labeur et d’épreuve"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":45,
+               "chapters":[
+                  10,
+                  11,
+                  12
+               ],
+               "reference":"1 Corinthiens 10-12"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":29,
+            "reference":"Avertissements et conseils"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":45,
+               "chapters":[
+                  13,
+                  14,
+                  15,
+                  16
+               ],
+               "reference":"1 Corinthiens 13-16"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":30,
+            "reference":"Vers un idéal plus élevé"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":46,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"2 Corinthiens 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":31,
+            "reference":"Le Message favorablement accueilli"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":46,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"2 Corinthiens 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":32,
+            "reference":"Une église généreuse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":46,
+               "chapters":[
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"2 Corinthiens 7-9"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":33,
+            "reference":"Le travail dans les difficultés"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":46,
+               "chapters":[
+                  10,
+                  11,
+                  12,
+                  13
+               ],
+               "reference":"2 Corinthiens 10-13"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":34,
+            "reference":"Un ministère consacré"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  6,
+                  7,
+                  8
+               ],
+               "reference":"Romains 6-8"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":35,
+            "reference":"Le salut pour les Juifs"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":47,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Galates 1-3"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  20
+               ],
+               "reference":"Actes 20"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":36,
+            "reference":"L’apostasie en Galatie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":47,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Galates 4-6"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  21
+               ],
+               "reference":"Actes 21:1-16"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":37,
+            "reference":"Dernier voyage de Paul à Jérusalem"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":43,
+               "chapters":[
+                  21,
+                  22,
+                  23
+               ],
+               "reference":"Actes 21:17-40;22-23"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":38,
+            "reference":"Paul prisonnier"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  9,
+                  10
+               ],
+               "reference":"Romains 9-10"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  24
+               ],
+               "reference":"Actes 24"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":39,
+            "reference":"Le procès de Césarée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":43,
+               "chapters":[
+                  25
+               ],
+               "reference":"Actes 25:1-12"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":40,
+            "reference":"Paul fait appel à César"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  11,
+                  12
+               ],
+               "reference":"Romains 11-12"
+            }
+         ],
+         "egwReading":null
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  13,
+                  14
+               ],
+               "reference":"Romains 13-14"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  25
+               ],
+               "reference":"Actes 25:13-27"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  26
+               ],
+               "reference":"Actes 26"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":41,
+            "reference":"“Tu me persuades presque!”"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":44,
+               "chapters":[
+                  15,
+                  16
+               ],
+               "reference":"Romains 15-16"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  27
+               ],
+               "reference":"Actes 27"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":42,
+            "reference":"Le voyage et le naufrage"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":56,
+               "chapters":[
+                  1
+               ],
+               "reference":"Philémon 1"
+            },
+            {
+               "book":43,
+               "chapters":[
+                  28
+               ],
+               "reference":"Actes 28"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":43,
+            "reference":"Paul à Rome"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":55,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Tite 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":44,
+            "reference":"La maison de César"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":37,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Zacharie 1-3"
+            },
+            {
+               "book":49,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Philippiens 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":45,
+            "reference":"Lettres de Rome"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":37,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Zacharie 4-6"
+            },
+            {
+               "book":50,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"Colossiens 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":46,
+            "reference":"La libération de Paul"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":37,
+               "chapters":[
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"Zacharie 7-9"
+            },
+            {
+               "book":53,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"1 Timothée 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":47,
+            "reference":"L’arrestation"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":53,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"1 Timothée 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":48,
+            "reference":"Paul devant Néron"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":54,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4
+               ],
+               "reference":"2 Timothée 1-4"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":49,
+            "reference":"La dernière lettre de Paul"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":59,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"1 Pierre 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":50,
+            "reference":"La condamnation à mort"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":59,
+               "chapters":[
+                  4,
+                  5
+               ],
+               "reference":"1 Pierre 4-5"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":51,
+            "reference":"Un fidèle berger"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":60,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"2 Pierre 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":52,
+            "reference":"Fermes jusqu’à la fin"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":61,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"1 Jean 1-5"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":53,
+            "reference":"Jean, le disciple bien-aimé"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":62,
+               "chapters":[
+                  1
+               ],
+               "reference":"2 Jean 1"
+            },
+            {
+               "book":63,
+               "chapters":[
+                  1
+               ],
+               "reference":"3 Jean 1"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":54,
+            "reference":"Un fidèle témoin"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  125,
+                  126,
+                  127,
+                  128,
+                  129,
+                  130
+               ],
+               "reference":"Psaumes 125-130"
+            },
+            {
+               "book":64,
+               "chapters":[
+                  1
+               ],
+               "reference":"Jude 1"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":55,
+            "reference":"Transformé par la grâce"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  131,
+                  132,
+                  133,
+                  134,
+                  135,
+                  136
+               ],
+               "reference":"Psaumes 131-136"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  1
+               ],
+               "reference":"Apocalypse 1"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":56,
+            "reference":"Patmos"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  137,
+                  138,
+                  139,
+                  140
+               ],
+               "reference":"Psaumes 137-140"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  2
+               ],
+               "reference":"Apocalypse 2"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":57,
+            "reference":"L’Apocalypse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  141,
+                  142,
+                  143
+               ],
+               "reference":"Psaumes 141-143"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  3
+               ],
+               "reference":"Apocalypse 3"
+            }
+         ],
+         "egwReading":{
+            "book":"AA",
+            "chapter":58,
+            "reference":"L’Eglise triomphante"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  144,
+                  145,
+                  146,
+                  147,
+                  148,
+                  149,
+                  150
+               ],
+               "reference":"Psaumes 144-150"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":0,
+            "reference":"Introduction"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":41,
+               "chapters":[
+                  19
+               ],
+               "reference":"Luc 19:41-44"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  4,
+                  5
+               ],
+               "reference":"Apocalypse 4-5"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":1,
+            "reference":"La destruction de Jérusalem"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Proverbes 1-3"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  8
+               ],
+               "reference":"Apocalypse 8:10-13"
+            },
+            {
+               "book":39,
+               "chapters":[
+                  24
+               ],
+               "reference":"Matthieu 24"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":2,
+            "reference":"La persécution aux premiers siècles"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  7
+               ],
+               "reference":"Daniel 7:25"
+            },
+            {
+               "book":52,
+               "chapters":[
+                  1,
+                  2
+               ],
+               "reference":"2 Thessaloniciens 1-2"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":3,
+            "reference":"L’apostasie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":65,
+               "chapters":[
+                  6,
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"Apocalypse 6-9"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":4,
+            "reference":"Les Vaudois du Piémont"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Proverbes 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":5,
+            "reference":"Jean Wiclef"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  7,
+                  8,
+                  9,
+                  10
+               ],
+               "reference":"Proverbes 7-10"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":6,
+            "reference":"Hus et Jérôme"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  11,
+                  12
+               ],
+               "reference":"Proverbes 11-12"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":7,
+            "reference":"Luther se sépare de Rome"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  13,
+                  14,
+                  15
+               ],
+               "reference":"Proverbes 13-15"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":8,
+            "reference":"Luther à la diète de Worms"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  16,
+                  17,
+                  18
+               ],
+               "reference":"Proverbes 16-18"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":9,
+            "reference":"Le réformateur suisse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  19,
+                  20,
+                  21
+               ],
+               "reference":"Proverbes 19-21"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":10,
+            "reference":"Progrès de la Réforme en Allemagne"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  22,
+                  23,
+                  24
+               ],
+               "reference":"Proverbes 22-24"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":11,
+            "reference":"La protestation des princes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":20,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Ecclésiaste 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":12,
+            "reference":"La Réforme en France"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":20,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Ecclésiaste 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":13,
+            "reference":"En Hollande et en Scandinavie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":20,
+               "chapters":[
+                  7,
+                  8,
+                  9
+               ],
+               "reference":"Ecclésiaste 7-9"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":14,
+            "reference":"Progrès de la Réforme en Angleterre"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":20,
+               "chapters":[
+                  10,
+                  11
+               ],
+               "reference":"Ecclésiaste 10;11:1-8"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  11
+               ],
+               "reference":"Apocalypse 11"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":15,
+            "reference":"La Bible et la Révolution française"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":21,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Cantiques 1-3"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":16,
+            "reference":"Les Pères pèlerins"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":21,
+               "chapters":[
+                  4,
+                  5,
+                  6
+               ],
+               "reference":"Cantiques 4-6"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":17,
+            "reference":"Les précurseurs du matin"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":21,
+               "chapters":[
+                  7,
+                  8
+               ],
+               "reference":"Cantiques 7-8"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":18,
+            "reference":"Un réformateur américain"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  143,
+                  144,
+                  145
+               ],
+               "reference":"Psaumes 143-145"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":19,
+            "reference":"Lumière et ténèbres"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  146,
+                  147,
+                  148,
+                  149,
+                  150
+               ],
+               "reference":"Psaumes 146-150"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  14
+               ],
+               "reference":"Apocalypse 14:6-7"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":20,
+            "reference":"Un grand réveil religieux"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":57,
+               "chapters":[
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+               ],
+               "reference":"Hébreux 1-5"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  14
+               ],
+               "reference":"Apocalypse 14:8"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":21,
+            "reference":"Un avertissement rejeté"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  25
+               ],
+               "reference":"Proverbes 25"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  10
+               ],
+               "reference":"Apocalypse 10"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":22,
+            "reference":"Prophéties accomplies"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  8
+               ],
+               "reference":"Daniel 8"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  9
+               ],
+               "reference":"Daniel 9:25-27"
+            },
+            {
+               "book":57,
+               "chapters":[
+                  8,
+                  9
+               ],
+               "reference":"Hébreux 8-9"
+            },
+            {
+               "book":2,
+               "chapters":[
+                  16
+               ],
+               "reference":"Lévitique 16:14"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":23,
+            "reference":"Qu’est-ce que le sanctuaire?"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  8
+               ],
+               "reference":"Daniel 8:14"
+            },
+            {
+               "book":20,
+               "chapters":[
+                  11
+               ],
+               "reference":"Ecclésiaste 11:9-10"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  9
+               ],
+               "reference":"Daniel 9"
+            },
+            {
+               "book":20,
+               "chapters":[
+                  12
+               ],
+               "reference":"Ecclésiaste 12"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":24,
+            "reference":"Dans le lieu très saint"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":57,
+               "chapters":[
+                  6,
+                  7
+               ],
+               "reference":"Hébreux 6-7"
+            },
+            {
+               "book":1,
+               "chapters":[
+                  20
+               ],
+               "reference":"Exode 20"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":25,
+            "reference":"La loi de Dieu est immuable"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":57,
+               "chapters":[
+                  10,
+                  11
+               ],
+               "reference":"Hébreux 10-11"
+            },
+            {
+               "book":22,
+               "chapters":[
+                  56
+               ],
+               "reference":"Ésaïe 56"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":26,
+            "reference":"Une réforme indispensable"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":57,
+               "chapters":[
+                  12,
+                  13
+               ],
+               "reference":"Hébreux 12-13"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":27,
+            "reference":"Réveils modernes"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":58,
+               "chapters":[
+                  1,
+                  2,
+                  3
+               ],
+               "reference":"Jacques 1-3"
+            },
+            {
+               "book":26,
+               "chapters":[
+                  7
+               ],
+               "reference":"Daniel 7:9-14"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":28,
+            "reference":"L’instruction du jugement"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":58,
+               "chapters":[
+                  4,
+                  5
+               ],
+               "reference":"Jacques 4-5"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":29,
+            "reference":"L’origine du mal"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  18,
+                  19,
+                  20
+               ],
+               "reference":"1 Chroniques 18-20"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":30,
+            "reference":"L’inimitié entre I’homme et Satan"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  21,
+                  22,
+                  23
+               ],
+               "reference":"1 Chroniques 21-23"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":31,
+            "reference":"Les bons anges et les esprits malins"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  24,
+                  25
+               ],
+               "reference":"1 Chroniques 24-25"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  12
+               ],
+               "reference":"Apocalypse 12"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":32,
+            "reference":"Les pièges de Satan"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  10
+               ],
+               "reference":"Daniel 10"
+            },
+            {
+               "book":25,
+               "chapters":[
+                  18
+               ],
+               "reference":"Ézéchiel 18:18"
+            },
+            {
+               "book":20,
+               "chapters":[
+                  9
+               ],
+               "reference":"Ecclésiaste 9:8"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":33,
+            "reference":"La séduction originelle"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  26,
+                  27
+               ],
+               "reference":"1 Chroniques 26-27"
+            },
+            {
+               "book":1,
+               "chapters":[
+                  22
+               ],
+               "reference":"Exode 22"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":34,
+            "reference":"Le spiritisme"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  11
+               ],
+               "reference":"Daniel 11"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  13,
+                  14
+               ],
+               "reference":"Apocalypse 13-14"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":35,
+            "reference":"Les visées de la papauté"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":12,
+               "chapters":[
+                  27,
+                  28,
+                  29
+               ],
+               "reference":"1 Chroniques 27-29"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":36,
+            "reference":"L’imminence de la lutte"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  26,
+                  27,
+                  28
+               ],
+               "reference":"Proverbes 26-28"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":37,
+            "reference":"Les Ecritures, notre sauvegarde"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  29
+               ],
+               "reference":"Proverbes 29"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  17,
+                  18
+               ],
+               "reference":"Apocalypse 17-18"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":38,
+            "reference":"L’avertissement final"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  91
+               ],
+               "reference":"Psaumes 91"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  15,
+                  16
+               ],
+               "reference":"Apocalypse 15-16"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":39,
+            "reference":"Le temps de détresse"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":26,
+               "chapters":[
+                  12
+               ],
+               "reference":"Daniel 12"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  16,
+                  17,
+                  18,
+                  19
+               ],
+               "reference":"Apocalypse 16-19"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":40,
+            "reference":"La délivrance"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":19,
+               "chapters":[
+                  30,
+                  31
+               ],
+               "reference":"Proverbes 30-31"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  20
+               ],
+               "reference":"Apocalypse 20"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":41,
+            "reference":"La terre désolée"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  46
+               ],
+               "reference":"Psaumes 46"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  21,
+                  22
+               ],
+               "reference":"Apocalypse 21-22"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":42,
+            "reference":"La fin de la tragédie"
+         }
+      },
+      {
+         "bibleChapters":[
+            {
+               "book":18,
+               "chapters":[
+                  46
+               ],
+               "reference":"Psaumes 46"
+            },
+            {
+               "book":65,
+               "chapters":[
+                  21,
+                  22
+               ],
+               "reference":"Apocalypse 21-22"
+            }
+         ],
+         "egwReading":{
+            "book":"GC",
+            "chapter":42,
+            "reference":"La fin de la tragédie"
+         }
+      }
+   ]
+}
