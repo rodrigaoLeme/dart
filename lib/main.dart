@@ -5,7 +5,6 @@ import 'package:timezone/data/latest.dart' as tz;
 import 'package:firebase_core/firebase_core.dart';
 import 'common.dart';
 import 'clean_arch/main/config/config.dart';
-import 'clean_arch/ui/auth/auth.dart';
 
 //void main() => runApp(const MyApp());
 void main() async {
@@ -44,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       themeMode: SettingsProvider.instance.appTheme,
       darkTheme: AppStyle.buildTheme(context, ThemeMode.dark),
       theme: AppStyle.buildTheme(context, ThemeMode.light),
-      home: const LoginScreen(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

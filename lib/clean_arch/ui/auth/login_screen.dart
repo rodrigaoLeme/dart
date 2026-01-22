@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../../presentation/auth/auth.dart';
+import '../helpers/platform_helper.dart';
 import './widgets/widgets.dart';
 
 /// Tela de Login
@@ -117,16 +118,25 @@ class _LoginScreenState extends State<LoginScreen> {
                               ),
                             ),
                             const Spacer(),
-                            AppleSignInButton(
-                              onPressed: _presenter.signInWithApple,
-                              isLoading: state.isProviderLoading('apple'),
+                            if (PlatformHelper.isAppleSignInAvailable) ...[
+                              AppleSignInButton(
+                                onPressed: _presenter.signInWithApple,
+                                isLoading: state.isProviderLoading('apple'),
+                              ),
+                              const SizedBox(
+                                height: 16,
+                              ),
+                            ],
+                            GoogleSignInButton(
+                              onPressed: _presenter.signInWithGoogle,
+                              isLoading: state.isProviderLoading('google'),
                             ),
                             const SizedBox(
                               height: 16,
                             ),
-                            GoogleSignInButton(
-                              onPressed: _presenter.signInWithGoogle,
-                              isLoading: state.isProviderLoading('google'),
+                            AnonymousSignInButton(
+                              onPressed: _presenter.signInAnonymously,
+                              isLoading: state.isProviderLoading('anonymous'),
                             ),
                             const SizedBox(
                               height: 40,

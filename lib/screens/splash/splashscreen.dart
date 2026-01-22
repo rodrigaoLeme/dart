@@ -1,42 +1,46 @@
 import 'dart:async';
 
-import 'package:bibleplan/app_setup.dart';
+import 'package:bibleplan/clean_arch/ui/auth/auth_state_wrapper.dart';
 import 'package:bibleplan/common.dart';
 import 'package:bibleplan/screens/home/homescreen.dart';
 import 'package:bibleplan/screens/languageScreen/language_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class SplashScreen extends StatelessWidget {
-  final timeout = const Duration(seconds: 3);
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({Key? key}) : super(key: key);
 
-  SplashScreen({Key? key}) : super(key: key) {
-    startTimeout();
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    _initialize();
   }
 
-  void startTimeout() {}
+  Future<void> _initialize() async {
+    await Future.delayed(const Duration(seconds: 3));
 
-  void gotoApp(BuildContext context) async {
-    var shared = await SharedPreferences.getInstance();
-    int _opens = shared.getInt("APPOPENNUMBER") ?? 0;
-    _opens++;
-    shared.setInt("APPOPENNUMBER", _opens);
+    final prefs = await SharedPreferences.getInstance();
+    int appOpenNumber = prefs.getInt('APPOPENNUMBER') ?? 0;
+    appOpenNumber++;
+    prefs.setInt("APPOPENNUMBER", appOpenNumber);
+
+    if (!mounted) return;
 
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
-        builder: (p) =>
-            _opens == 1 ? const LanguageSelectionScreen() : const HomeScreen(),
+        builder: (p) => appOpenNumber == 1
+            ? const LanguageSelectionScreen()
+            : const AuthStateWrapper(homeScreen: HomeScreen()),
       ),
     );
   }
 
-  void _setup(BuildContext context) async {
-    await AppSetup.setup(context);
-    Timer(timeout, () => gotoApp(context));
-  }
-
   @override
   Widget build(BuildContext context) {
-    _setup(context);
     return Scaffold(
       backgroundColor: const Color(0xFF007aa7),
       body: Center(
