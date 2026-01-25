@@ -3,9 +3,14 @@ import 'package:flutter/material.dart';
 class AnonymousSignInButton extends StatelessWidget {
   final VoidCallback onPressed;
   final bool isLoading;
+  final String textButton;
 
-  const AnonymousSignInButton(
-      {super.key, required this.onPressed, this.isLoading = false});
+  const AnonymousSignInButton({
+    super.key,
+    required this.onPressed,
+    this.isLoading = false,
+    this.textButton = 'Continue without an account',
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -31,20 +36,20 @@ class AnonymousSignInButton extends StatelessWidget {
                   valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF0B7FA4)),
                 ),
               )
-            : const Row(
+            : Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.person,
                     size: 40,
                     color: Colors.black,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 20,
                   ),
                   Text(
-                    'Continuar sem Conta',
-                    style: TextStyle(
+                    textButton,
+                    style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                       color: Color(0xFF00668C),

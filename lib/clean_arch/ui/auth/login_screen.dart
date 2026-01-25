@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'package:bibleplan/shared/localize.dart';
+
 import '../../presentation/auth/auth.dart';
 import '../helpers/platform_helper.dart';
 import './widgets/widgets.dart';
@@ -95,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               height: 15,
                             ),
                             Text(
-                              'Bible plan',
+                              localize('loginTitle'),
                               style: TextStyle(
                                 fontSize: 38,
                                 fontWeight: FontWeight.w700,
@@ -107,10 +109,10 @@ class _LoginScreenState extends State<LoginScreen> {
                             const SizedBox(
                               height: 16,
                             ),
-                            const Text(
-                              'App para estudo da Bíblia e do Espírito de Profecia',
+                            Text(
+                              localize('loginDescription'),
                               textAlign: TextAlign.center,
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 19,
                                 color: Colors.white,
                                 height: 1.5,
@@ -120,6 +122,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             const Spacer(),
                             if (PlatformHelper.isAppleSignInAvailable) ...[
                               AppleSignInButton(
+                                textButton: localize('loginApple'),
                                 onPressed: _presenter.signInWithApple,
                                 isLoading: state.isProviderLoading('apple'),
                               ),
@@ -128,6 +131,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               ),
                             ],
                             GoogleSignInButton(
+                              textButton: localize('loginGoogle'),
                               onPressed: _presenter.signInWithGoogle,
                               isLoading: state.isProviderLoading('google'),
                             ),
@@ -135,6 +139,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               height: 16,
                             ),
                             AnonymousSignInButton(
+                              textButton: localize('loginAnonymous'),
                               onPressed: _presenter.signInAnonymously,
                               isLoading: state.isProviderLoading('anonymous'),
                             ),

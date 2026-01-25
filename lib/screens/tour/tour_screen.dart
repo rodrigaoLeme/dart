@@ -1,3 +1,4 @@
+import 'package:bibleplan/clean_arch/ui/auth/auth.dart';
 import 'package:bibleplan/common.dart';
 import 'package:bibleplan/screens/home/homescreen.dart';
 
@@ -37,7 +38,9 @@ class _TourScreenState extends State<TourScreen> {
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (context) => const HomeScreen(),
+                        builder: (context) => const AuthStateWrapper(
+                          homeScreen: HomeScreen(),
+                        ),
                       ),
                     );
                   },

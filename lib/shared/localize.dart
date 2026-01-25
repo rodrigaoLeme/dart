@@ -99,6 +99,11 @@ const _ptWords = {
   "ShareAppSubject": "Conheça o Aplicativo Bible Plan",
   "CheckOutThisApp":
       "📖 | VOCÊ CONHECE O BIBLE PLAN?\n\nO Bible Plan é um app de estudo da Bíblia em um ano (ano bíblico), acompanhado da leitura de cinco obras literárias da série conflito (Patriarcas e Profetas, Profetas e Reis, O Desejado de Todas as Nações, Atos dos Apóstolos, Grande Conflito e também com a obra Parábolas de Jesus 📚\n\nBaixe agora nas plataformas digitais.",
+  "logoutButton": "Encerrar Sessão",
+  "logoutTitle": "Encerrar Sessão",
+  "logoutMessage": "Deseja realmente encerrar sua sessão?",
+  "logoutConfirmPositive": "Sim",
+  "logoutConfirmNegative": "Cancelar",
   // About Page
   "about_title":
       "BIBLE PLAN\nGuia de Estudo da Bíblia com auxílio do Espírito de Profecia",
@@ -113,6 +118,12 @@ const _ptWords = {
   "about_technicalAssistant": "Assistente Técnico:",
   "about_reviewOfVerses": "Revisão de Passagens:",
   "about_development": "Desenvolvimento",
+  // Login Page
+  "loginTitle": "Bible Plan",
+  "loginDescription": "App para estudo da Bíblia e do Espírito de Profecia",
+  "loginApple": "Continuar com Apple",
+  "loginGoogle": "Continuar com Google",
+  "loginAnonymous": "Continuar sem Conta",
 };
 
 const _esWords = {
@@ -210,6 +221,11 @@ const _esWords = {
   "ShareAppSubject": "Descubre la aplicación del Plan Bíblico",
   "CheckOutThisApp":
       "📖 | ¿CONOCES EL PLAN BÍBLICO?\n\nEl Plan Bíblico es una aplicación de estudio bíblico de un año, que incluye la lectura de cinco obras literarias de la serie Controversia (Patriarcas y Profetas, Profetas y Reyes, El Deseado de Todas las Gentes, Hechos de los Apóstoles, El Gran Conflicto) y la obra Parábolas de Jesús. 📚\n\nDescárgalo ahora en plataformas digitales.",
+  "logoutButton": "Cerrar sesión",
+  "logoutTitle": "Cerrar sesión",
+  "logoutMessage": "¿Desea realmente cerrar su sesión?",
+  "logoutConfirmPositive": "Sí",
+  "logoutConfirmNegative": "Cancelar",
   // About Page
   "about_title":
       "BIBLE PLAN\nGuía de estudio bíblico con la ayuda del Espíritu de profecía",
@@ -224,6 +240,13 @@ const _esWords = {
   "about_technicalAssistant": "Asistente Técnico:",
   "about_reviewOfVerses": "Revisión de Versos:",
   "about_development": "Desarrollo",
+  // Login Page
+  "loginTitle": "Bible Plan",
+  "loginDescription":
+      "Aplicación para el estudio de la Biblia y del Espíritu de Profecía",
+  "loginApple": "Continuar con Apple",
+  "loginGoogle": "Continuar con Google",
+  "loginAnonymous": "Continuar sin cuenta",
 };
 
 const _enWords = {
@@ -324,6 +347,11 @@ const _enWords = {
   "ShareAppSubject": "Discover the Bible Plan App",
   "CheckOutThisApp":
       "📖 | DO YOU KNOW THE BIBLE PLAN?\n\nThe Bible Plan is a one-year Bible study app (Bible year), accompanied by the reading of five literary works from the Controversy series (Patriarchs and Prophets, Prophets and Kings, The Desire of Ages, Acts of the Apostles, The Great Controversy) and also the work Parables of Jesus 📚\n\nDownload now on digital platforms.",
+  "logoutButton": "Log out",
+  "logoutTitle": "Log out",
+  "logoutMessage": "Do you really want to log out?",
+  "logoutConfirmPositive": "Yes",
+  "logoutConfirmNegative": "Cancel",
   // About Page
   "about_title":
       "BIBLE PLAN\nBible Study Guide with the help of the Spirit of Prophecy",
@@ -338,6 +366,12 @@ const _enWords = {
   "about_technicalAssistant": "Technical Assistant:",
   "about_reviewOfVerses": "Verse Review:",
   "about_development": "Development",
+  // Login Page
+  "loginTitle": "Bible Plan",
+  "loginDescription": "App for studying the Bible and the Spirit of Prophecy",
+  "loginApple": "Continue with Apple",
+  "loginGoogle": "Continue with Google",
+  "loginAnonymous": "Continue without an account",
 };
 
 const _frWords = {
@@ -438,6 +472,11 @@ const _frWords = {
   "ShareAppSubject": "Découvrez l'application Bible Plan.",
   "CheckOutThisApp":
       "📖 | CONNAISSEZ-VOUS LE PLAN D'ÉTUDE BIBLIQUE ?\n\nLe Plan d'étude biblique est une application d'étude biblique d'un an (année biblique), accompagnée de la lecture de cinq ouvrages de la série Controverse (Patriarches et Prophètes, Prophètes et Rois, Le Désir des siècles, Actes des Apôtres, La Grande Controverse) ainsi que de l'ouvrage Les Paraboles de Jésus. 📚\n\nTéléchargez-le dès maintenant sur les plateformes numériques.",
+  "logoutButton": "Se déconnecter",
+  "logoutTitle": "Se déconnecter",
+  "logoutMessage": "Souhaitez-vous vraiment vous déconnecter ?",
+  "logoutConfirmPositive": "Oui",
+  "logoutConfirmNegative": "Annuler",
   // About Page
   "about_title":
       "BIBLE PLAN\nGuide d'étude biblique avec l'aide de l'Esprit de Prophétie",
@@ -452,6 +491,13 @@ const _frWords = {
   "about_technicalAssistant": "Assistant Technique :",
   "about_reviewOfVerses": "Révision des Versets :",
   "about_development": "Développement",
+  // Login Page
+  "loginTitle": "Bible Plan",
+  "loginDescription":
+      "Application pour l’étude de la Bible et de l’Esprit de prophétie",
+  "loginApple": "Continuer avec Apple",
+  "loginGoogle": "Continuer avec Google",
+  "loginAnonymous": "Continuer sans compte",
 };
 
 const _zhCNWords = {
@@ -548,6 +594,11 @@ const _zhCNWords = {
   "ShareAppSubject": "探索圣经计划应用程序",
   "CheckOutThisApp":
       "📖 | 您了解“圣经计划”吗？\n\n“圣经计划”是一款为期一年的圣经学习应用程序（圣经年），配套阅读“争论”系列中的五部文学作品（《先祖与先知》、《先知与君王》、《历代愿望》、《使徒行传》、《善恶之争》）以及《耶稣的比喻》📚\n\n立即在各大数字平台下载。",
+  "logoutButton": "退出登录",
+  "logoutTitle": "退出登录",
+  "logoutMessage": "您确定要退出登录吗？",
+  "logoutConfirmPositive": "是",
+  "logoutConfirmNegative": "取消",
   // About Page
   "about_title": "圣经计划\n圣经学习指南与预言之灵辅助",
   "about_subtitle": "基督复临安息日会\n南美分会\n预言之灵部",
@@ -560,6 +611,12 @@ const _zhCNWords = {
   "about_technicalAssistant": "技术助理：",
   "about_reviewOfVerses": "经文校对：",
   "about_development": "开发",
+  // Login Page
+  "loginTitle": "Bible Plan",
+  "loginDescription": "用于学习圣经和预言之灵的应用程序",
+  "loginApple": "使用 Apple 继续",
+  "loginGoogle": "使用 Google 继续",
+  "loginAnonymous": "无需账户继续",
 };
 
 String localize(String key) => _localize(key);

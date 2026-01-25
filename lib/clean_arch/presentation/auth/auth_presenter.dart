@@ -29,8 +29,8 @@ class AuthPresenter {
   void _initializeUseCases() {
     _signInGoogle = AuthFactory.makeSignInGoogle();
     _signInApple = AuthFactory.makeSignInApple();
-    _signInAnonymous = AuthFactory.makeSingInAnonymous();
-    _signOut = AuthFactory.makeSingOut();
+    _signInAnonymous = AuthFactory.makeSignInAnonymous();
+    _signOut = AuthFactory.makeSignOut();
     _observeAuthState = AuthFactory.makeObserveAuthState();
   }
 

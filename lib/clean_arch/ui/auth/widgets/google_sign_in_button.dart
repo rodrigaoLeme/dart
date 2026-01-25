@@ -3,9 +3,14 @@ import 'package:flutter/material.dart';
 class GoogleSignInButton extends StatelessWidget {
   final VoidCallback onPressed;
   final bool isLoading;
+  final String textButton;
 
-  const GoogleSignInButton(
-      {super.key, required this.onPressed, this.isLoading = false});
+  const GoogleSignInButton({
+    super.key,
+    required this.onPressed,
+    this.isLoading = false,
+    this.textButton = 'Continue with Google',
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -66,9 +71,9 @@ class GoogleSignInButton extends StatelessWidget {
                   const SizedBox(
                     width: 27,
                   ),
-                  const Text(
-                    'Continuar com Google',
-                    style: TextStyle(
+                  Text(
+                    textButton,
+                    style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                       color: Color(0xFF00668C),

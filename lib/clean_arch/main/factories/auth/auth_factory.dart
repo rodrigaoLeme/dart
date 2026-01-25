@@ -10,11 +10,11 @@ class AuthFactory {
     return AuthUseCasesFactory.makeSignInApple();
   }
 
-  static SignInAnonymous makeSingInAnonymous() {
+  static SignInAnonymous makeSignInAnonymous() {
     return AuthUseCasesFactory.makeSignInAnonymous();
   }
 
-  static SignOut makeSingOut() {
+  static SignOut makeSignOut() {
     return AuthUseCasesFactory.makeSignOut();
   }
 

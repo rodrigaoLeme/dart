@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       themeMode: SettingsProvider.instance.appTheme,
       darkTheme: AppStyle.buildTheme(context, ThemeMode.dark),
       theme: AppStyle.buildTheme(context, ThemeMode.light),
-      home: SplashScreen(),
+      home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

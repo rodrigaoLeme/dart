@@ -2,9 +2,12 @@ import 'dart:async';
 
 import 'package:bibleplan/clean_arch/ui/auth/auth_state_wrapper.dart';
 import 'package:bibleplan/common.dart';
+import 'package:bibleplan/flavors.dart';
 import 'package:bibleplan/screens/home/homescreen.dart';
 import 'package:bibleplan/screens/languageScreen/language_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../app_setup.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -14,19 +17,28 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  late final String flavorType;
+
   @override
   void initState() {
     super.initState();
+    _setFlavorType();
     _initialize();
+  }
+
+  void _setFlavorType() {
+    flavorType = (Flavor.flavorMessage == 'Dev') ? '-DEV' : '';
   }
 
   Future<void> _initialize() async {
     await Future.delayed(const Duration(seconds: 3));
+    await AppSetup.setup(context);
 
     final prefs = await SharedPreferences.getInstance();
-    int appOpenNumber = prefs.getInt('APPOPENNUMBER') ?? 0;
+
+    int appOpenNumber = prefs.getInt('APPOPENNUMBER$flavorType') ?? 0;
     appOpenNumber++;
-    prefs.setInt("APPOPENNUMBER", appOpenNumber);
+    prefs.setInt("APPOPENNUMBER$flavorType", appOpenNumber);
 
     if (!mounted) return;
 

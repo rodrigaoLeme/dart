@@ -25,12 +25,15 @@ class FirebaseAuthAdapter implements AuthRepository {
   @override
   Future<User> signInWithGoogle() async {
     try {
-      final GoogleSignInAccount? googleUser =
-          await _googleSignIn.authenticate();
+      await _googleSignIn.initialize();
 
-      if (googleUser == null) {
-        throw Exception('Google sign in cancelled by user');
-      }
+      GoogleSignInAccount? googleUser =
+          await _googleSignIn.attemptLightweightAuthentication();
+
+      googleUser ??= await _googleSignIn.authenticate(scopeHint: [
+        'email',
+        'profile',
+      ]);
 
       final GoogleSignInAuthentication googleAuth = googleUser.authentication;
 
@@ -144,17 +147,29 @@ class FirebaseAuthAdapter implements AuthRepository {
 
       switch (provider) {
         case LinkProvider.google:
-          final googleUser = await _googleSignIn.authenticate();
+          await _googleSignIn.initialize();
 
-          // ignore: unnecessary_null_comparison
-          if (googleUser == null) {
-            throw Exception('Google sign in cancelled by user');
-          }
+          GoogleSignInAccount? googleUser =
+              await _googleSignIn.attemptLightweightAuthentication();
 
-          final googleAuth = googleUser.authentication;
-          credential = GoogleAuthProvider.credential(
+          googleUser ??= await _googleSignIn.authenticate(scopeHint: [
+            'email',
+            'profile',
+          ]);
+
+          final GoogleSignInAuthentication googleAuth =
+              googleUser.authentication;
+
+          final credential = GoogleAuthProvider.credential(
             idToken: googleAuth.idToken,
           );
+
+          final userCredential =
+              await _firebaseAuth.signInWithCredential(credential);
+
+          if (userCredential.user == null) {
+            throw Exception('Failed to sign in with Google');
+          }
           break;
         case LinkProvider.apple:
           final appleCredential = await SignInWithApple.getAppleIDCredential(
