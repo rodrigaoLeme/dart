@@ -26,6 +26,10 @@ class AuthFactory {
     return AuthUseCasesFactory.makeGetCurrentUser();
   }
 
+  static DeleteAccount makeDeleteAccount() {
+    return AuthUseCasesFactory.makeDeleteAccount();
+  }
+
   static ObserveAuthState makeObserveAuthState() {
     return AuthUseCasesFactory.makeObserveAuthState();
   }

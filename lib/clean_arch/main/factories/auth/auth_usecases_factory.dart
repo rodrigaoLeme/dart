@@ -29,6 +29,10 @@ class AuthUseCasesFactory {
     return RemoteGetCurrentUser(repository: _repository);
   }
 
+  static DeleteAccount makeDeleteAccount() {
+    return RemoteDeleteAccount(repository: _repository);
+  }
+
   static ObserveAuthState makeObserveAuthState() {
     return RemoteObserveAuthState(repository: _repository);
   }

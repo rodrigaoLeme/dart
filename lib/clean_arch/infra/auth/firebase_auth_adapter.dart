@@ -160,16 +160,9 @@ class FirebaseAuthAdapter implements AuthRepository {
           final GoogleSignInAuthentication googleAuth =
               googleUser.authentication;
 
-          final credential = GoogleAuthProvider.credential(
+          credential = GoogleAuthProvider.credential(
             idToken: googleAuth.idToken,
           );
-
-          final userCredential =
-              await _firebaseAuth.signInWithCredential(credential);
-
-          if (userCredential.user == null) {
-            throw Exception('Failed to sign in with Google');
-          }
           break;
         case LinkProvider.apple:
           final appleCredential = await SignInWithApple.getAppleIDCredential(
@@ -196,6 +189,27 @@ class FirebaseAuthAdapter implements AuthRepository {
       throw _mapFirebaseException(e);
     } catch (e) {
       throw Exception('Link accout failed: $e');
+    }
+  }
+
+  @override
+  Future<void> deleteAccount() async {
+    try {
+      final user = _firebaseAuth.currentUser;
+
+      if (user == null) {
+        throw Exception('No user signed in to delete');
+      }
+
+      if (!user.isAnonymous) {
+        await _googleSignIn.signOut();
+      }
+
+      await user.delete();
+    } on FirebaseAuthException catch (e) {
+      throw _mapFirebaseException(e);
+    } catch (e) {
+      throw Exception('Failed to delete account: $e');
     }
   }
 

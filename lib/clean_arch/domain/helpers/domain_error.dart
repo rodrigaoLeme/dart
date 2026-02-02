@@ -11,6 +11,7 @@ enum DomainError {
   networkError,
   timeout,
   accountNotLinked,
+  accountRequiresRecentLogin,
   providerNotAvailable,
   invalidData,
   syncConflict,
@@ -44,6 +45,8 @@ extension DomainErrorExtension on DomainError {
         return 'Tempo limite excedido. Tente novamente.';
       case DomainError.accountNotLinked:
         return 'Conta não vinculada. Faça login primeiro.';
+      case DomainError.accountRequiresRecentLogin:
+        return 'Por sergurança, faça login novamente antes de excluir sua conta';
       case DomainError.providerNotAvailable:
         return 'Provedor de login não disponível.';
       case DomainError.invalidData:

@@ -29,7 +29,7 @@ class RemoteSignInAnonymous implements SignInAnonymous {
       displayName: firebaseUser.displayName,
       photoUrl: firebaseUser.photoURL,
       isAnonymous: firebaseUser.isAnonymous,
-      isEmailVerified: firebaseUser.isEmailVerified,
+      isEmailVerified: firebaseUser.emailVerified,
       providerId: firebaseUser.providerData.isNotEmpty
           ? firebaseUser.providerData.first.providerId
           : null,

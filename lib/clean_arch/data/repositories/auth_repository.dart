@@ -17,4 +17,6 @@ abstract class AuthRepository {
 
   // Vincula conta anônima com um provedor
   Future<firebase.User> linkWithProvider(LinkProvider provider);
+
+  Future<void> deleteAccount();
 }

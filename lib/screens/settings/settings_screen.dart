@@ -9,8 +9,7 @@ import 'package:bibleplan/screens/settings/notification_configuration.dart';
 import 'package:bibleplan/screens/settings/Widgets/notification_list.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:bibleplan/clean_arch/presentation/auth/auth.dart';
-import 'package:bibleplan/clean_arch/ui/auth/auth.dart';
+import 'package:bibleplan/clean_arch/ui/profile/profile.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);
@@ -20,64 +19,14 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  late final AuthPresenter _presenter;
-
   @override
   void initState() {
     super.initState();
-    _presenter = AuthPresenter();
   }
 
   @override
   void dispose() {
-    _presenter.dispose();
     super.dispose();
-  }
-
-  Future<void> _handleLogout() async {
-    final confirm = await showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        backgroundColor: AppStyle.backgroundColor,
-        title: Txt.b(localize('logoutTitle')),
-        content: Txt(localize('logoutMessage')),
-        actions: [
-          TextButton(
-              onPressed: () => Navigator.of(context).pop(false),
-              child: Txt(localize('logoutConfirmNegative'))),
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(true),
-            child: Txt(localize('logoutConfirmPositive')),
-            style: TextButton.styleFrom(
-              foregroundColor: Colors.red,
-            ),
-          ),
-        ],
-      ),
-    );
-
-    if (confirm != true) return;
-
-    if (mounted) {
-      showDialog(
-          context: context,
-          barrierDismissible: false,
-          builder: (context) => const Center(
-                child: CircularProgressIndicator(),
-              ));
-    }
-
-    await _presenter.signOut();
-
-    if (mounted) {
-      Navigator.of(context).pop();
-    }
-
-    if (mounted) {
-      Navigator.of(context).pushAndRemoveUntil(
-          MaterialPageRoute(builder: (_) => const LoginScreen()),
-          (route) => false);
-    }
   }
 
   void _setLanguage(String lg) async {
@@ -296,10 +245,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                   const Divider(),
                   Cell(
-                    onPressed: () => _handleLogout(),
-                    child: Txt.s(localize("logoutButton"), 18),
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const ProfileScreen(),
+                        ),
+                      );
+                    },
+                    child: Txt.s(localize("settingsProfile"), 18),
                     accessory: Icon(
-                      Icons.logout,
+                      Icons.arrow_forward_ios,
                       color: AppStyle.primaryColor,
                     ),
                   ),
