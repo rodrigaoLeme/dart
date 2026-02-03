@@ -1,3 +1,4 @@
+import 'package:bibleplan/shared/widgets/easytext.dart';
 import 'package:flutter/material.dart';
 
 class GoogleSignInButton extends StatelessWidget {
@@ -21,7 +22,7 @@ class GoogleSignInButton extends StatelessWidget {
         onPressed: isLoading ? null : onPressed,
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.white,
-          foregroundColor: const Color(0xFF0B7FA4),
+          foregroundColor: Colors.white,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(28),
           ),
@@ -71,13 +72,10 @@ class GoogleSignInButton extends StatelessWidget {
                   const SizedBox(
                     width: 27,
                   ),
-                  Text(
+                  Txt.b(
                     textButton,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w600,
-                      color: Color(0xFF00668C),
-                    ),
+                    size: 18,
+                    color: const Color(0xFF00668C),
                   ),
                 ],
               ),

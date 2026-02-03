@@ -1,3 +1,4 @@
+import 'package:bibleplan/shared/widgets/easytext.dart';
 import 'package:flutter/material.dart';
 
 class AnonymousSignInButton extends StatelessWidget {
@@ -17,46 +18,27 @@ class AnonymousSignInButton extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       height: 56,
-      child: ElevatedButton(
-        onPressed: isLoading ? null : onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.white,
-          foregroundColor: const Color(0xFF0B7FA4),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(28),
-          ),
-          elevation: 0,
-        ),
-        child: isLoading
-            ? const SizedBox(
-                height: 24,
-                width: 24,
-                child: CircularProgressIndicator(
-                  strokeAlign: 2,
-                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF0B7FA4)),
-                ),
-              )
-            : Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  const Icon(
-                    Icons.person,
-                    size: 40,
-                    color: Colors.black,
-                  ),
-                  const SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    textButton,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w600,
-                      color: Color(0xFF00668C),
+      child: InkWell(
+        onTap: isLoading ? null : onPressed,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            isLoading
+                ? const SizedBox(
+                    height: 24,
+                    width: 24,
+                    child: CircularProgressIndicator(
+                      strokeAlign: 2,
+                      valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                     ),
-                  ),
-                ],
-              ),
+                  )
+                : Txt.b(
+                    textButton,
+                    color: Colors.white,
+                    size: 18,
+                  )
+          ],
+        ),
       ),
     );
   }

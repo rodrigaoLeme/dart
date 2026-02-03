@@ -52,7 +52,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
   void _showSuccess(String message) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(message),
+        content: Txt.b(
+          message,
+          size: 18,
+          color: Colors.white,
+        ),
         backgroundColor: Colors.green,
         behavior: SnackBarBehavior.floating,
       ),

@@ -84,10 +84,11 @@ class FirebaseAuthAdapter implements AuthRepository {
                 .trim();
         if (displayName.isNotEmpty) {
           await userCredential.user!.updateDisplayName(displayName);
+          await userCredential.user!.reload();
         }
       }
 
-      return userCredential.user!;
+      return _firebaseAuth.currentUser!;
     } on FirebaseAuthException catch (e) {
       throw _mapFirebaseException(e);
     } on SignInWithAppleAuthorizationException catch (e) {
@@ -143,6 +144,7 @@ class FirebaseAuthAdapter implements AuthRepository {
         throw Exception('User is not anonymous');
       }
 
+      late final UserCredential userCredential;
       late final AuthCredential credential;
 
       switch (provider) {
@@ -157,13 +159,21 @@ class FirebaseAuthAdapter implements AuthRepository {
             'profile',
           ]);
 
-          final GoogleSignInAuthentication googleAuth =
-              googleUser.authentication;
-
+          final googleAuth = googleUser.authentication;
           credential = GoogleAuthProvider.credential(
             idToken: googleAuth.idToken,
           );
+
+          userCredential = await currentUser.linkWithCredential(credential);
+
+          if (userCredential.user != null) {
+            await userCredential.user!
+                .updateDisplayName(googleUser.displayName);
+            await userCredential.user!.updatePhotoURL(googleUser.photoUrl);
+            await userCredential.user!.reload();
+          }
           break;
+
         case LinkProvider.apple:
           final appleCredential = await SignInWithApple.getAppleIDCredential(
             scopes: [
@@ -176,15 +186,24 @@ class FirebaseAuthAdapter implements AuthRepository {
             idToken: appleCredential.identityToken,
             accessToken: appleCredential.authorizationCode,
           );
+
+          userCredential = await currentUser.linkWithCredential(credential);
+
+          if (userCredential.user != null &&
+              (appleCredential.givenName != null ||
+                  appleCredential.familyName != null)) {
+            final displayName =
+                '${appleCredential.givenName ?? ''} ${appleCredential.familyName ?? ''}'
+                    .trim();
+            if (displayName.isNotEmpty) {
+              await userCredential.user!.updateDisplayName(displayName);
+              await userCredential.user!.reload();
+            }
+          }
           break;
       }
 
-      final userCredential = await currentUser.linkWithCredential(credential);
-      if (userCredential.user == null) {
-        throw Exception('Failed to link account');
-      }
-
-      return userCredential.user!;
+      return _firebaseAuth.currentUser!;
     } on FirebaseAuthException catch (e) {
       throw _mapFirebaseException(e);
     } catch (e) {

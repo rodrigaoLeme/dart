@@ -1,3 +1,4 @@
+import 'package:bibleplan/shared/widgets/easytext.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -33,7 +34,11 @@ class _LoginScreenState extends State<LoginScreen> {
   void _showError(String message) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(message),
+        content: Txt.b(
+          message,
+          size: 18,
+          color: Colors.white,
+        ),
         backgroundColor: Colors.red,
         behavior: SnackBarBehavior.floating,
       ),

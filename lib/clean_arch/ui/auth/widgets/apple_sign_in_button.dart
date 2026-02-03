@@ -1,3 +1,4 @@
+import 'package:bibleplan/shared/widgets/easytext.dart';
 import 'package:flutter/material.dart';
 
 class AppleSignInButton extends StatelessWidget {
@@ -21,7 +22,7 @@ class AppleSignInButton extends StatelessWidget {
         onPressed: isLoading ? null : onPressed,
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.white,
-          foregroundColor: const Color(0xFF0B7FA4),
+          foregroundColor: Colors.white,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(28),
           ),
@@ -33,7 +34,7 @@ class AppleSignInButton extends StatelessWidget {
                 width: 24,
                 child: CircularProgressIndicator(
                   strokeAlign: 2,
-                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF0B7FA4)),
+                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF00668C)),
                 ),
               )
             : Row(
@@ -47,13 +48,10 @@ class AppleSignInButton extends StatelessWidget {
                   const SizedBox(
                     width: 20,
                   ),
-                  Text(
+                  Txt.b(
                     textButton,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w600,
-                      color: Color(0xFF00668C),
-                    ),
+                    size: 18,
+                    color: const Color(0xFF00668C),
                   ),
                 ],
               ),
