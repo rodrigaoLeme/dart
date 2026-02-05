@@ -1,0 +1,78 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+import '../../../domain/entities/sync/sync.dart';
+
+class NoteModel {
+  final String id;
+  final int book;
+  final int chapter;
+  final int verse;
+  final String content;
+  final DateTime createdAt;
+  final DateTime updatedAt;
+  final String? deviceId;
+
+  const NoteModel({
+    required this.id,
+    required this.book,
+    required this.chapter,
+    required this.verse,
+    required this.content,
+    required this.createdAt,
+    required this.updatedAt,
+    this.deviceId,
+  });
+
+  NoteEntity toEntity() {
+    return NoteEntity(
+      id: id,
+      book: book,
+      chapter: chapter,
+      verse: verse,
+      content: content,
+      createdAt: createdAt,
+      updatedAt: updatedAt,
+      deviceId: deviceId,
+    );
+  }
+
+  factory NoteModel.fromEntity(NoteEntity entity) {
+    return NoteModel(
+      id: entity.id,
+      book: entity.book,
+      chapter: entity.chapter,
+      verse: entity.verse,
+      content: entity.content,
+      createdAt: entity.createdAt,
+      updatedAt: entity.updatedAt,
+      deviceId: entity.deviceId,
+    );
+  }
+
+  factory NoteModel.fromFirestore(DocumentSnapshot doc) {
+    final data = doc.data() as Map<String, dynamic>;
+
+    return NoteModel(
+      id: doc.id,
+      book: data['book'] as int,
+      chapter: data['chapter'] as int,
+      verse: data['verse'] as int,
+      content: data['content'] as String,
+      createdAt: (data['createdAt'] as Timestamp).toDate(),
+      updatedAt: (data['updatedAt'] as Timestamp).toDate(),
+      deviceId: data['deviceId'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toFirestore() {
+    return {
+      'book': book,
+      'chapter': chapter,
+      'verse': verse,
+      'content': content,
+      'createdAt': Timestamp.fromDate(createdAt),
+      'updatedAt': Timestamp.fromDate(updatedAt),
+      'deviceId': deviceId,
+    };
+  }
+}
