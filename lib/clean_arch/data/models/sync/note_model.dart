@@ -4,13 +4,20 @@ import '../../../domain/entities/sync/sync.dart';
 
 class NoteModel {
   final String id;
-  final int book;
+  final String book;
   final int chapter;
   final int verse;
   final String content;
   final DateTime createdAt;
   final DateTime updatedAt;
   final String? deviceId;
+  final String language;
+  final int start;
+  final int end;
+  final String? textSnippet;
+  final String? reference;
+  final int page;
+  final int day;
 
   const NoteModel({
     required this.id,
@@ -21,6 +28,13 @@ class NoteModel {
     required this.createdAt,
     required this.updatedAt,
     this.deviceId,
+    required this.language,
+    required this.start,
+    required this.end,
+    this.textSnippet,
+    this.reference,
+    required this.page,
+    required this.day,
   });
 
   NoteEntity toEntity() {
@@ -33,6 +47,13 @@ class NoteModel {
       createdAt: createdAt,
       updatedAt: updatedAt,
       deviceId: deviceId,
+      language: language,
+      start: start,
+      end: end,
+      textSnippet: textSnippet,
+      reference: reference,
+      page: page,
+      day: day,
     );
   }
 
@@ -46,6 +67,13 @@ class NoteModel {
       createdAt: entity.createdAt,
       updatedAt: entity.updatedAt,
       deviceId: entity.deviceId,
+      language: entity.language,
+      start: entity.start,
+      end: entity.end,
+      textSnippet: entity.textSnippet,
+      reference: entity.reference,
+      page: entity.page,
+      day: entity.day,
     );
   }
 
@@ -54,13 +82,20 @@ class NoteModel {
 
     return NoteModel(
       id: doc.id,
-      book: data['book'] as int,
+      book: data['book'] as String,
       chapter: data['chapter'] as int,
       verse: data['verse'] as int,
       content: data['content'] as String,
       createdAt: (data['createdAt'] as Timestamp).toDate(),
       updatedAt: (data['updatedAt'] as Timestamp).toDate(),
       deviceId: data['deviceId'] as String?,
+      language: data['language'] as String,
+      start: data['start'] as int,
+      end: data['end'] as int,
+      textSnippet: data['textSnippet'] as String?,
+      reference: data['reference'] as String?,
+      page: data['page'] as int,
+      day: data['day'] as int,
     );
   }
 
@@ -73,6 +108,13 @@ class NoteModel {
       'createdAt': Timestamp.fromDate(createdAt),
       'updatedAt': Timestamp.fromDate(updatedAt),
       'deviceId': deviceId,
+      'language': language,
+      'start': start,
+      'end': end,
+      'textSnippet': textSnippet,
+      'reference': reference,
+      'page': page,
+      'day': day,
     };
   }
 }

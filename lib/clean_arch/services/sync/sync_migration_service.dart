@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:bibleplan/common.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
@@ -9,6 +10,7 @@ import 'package:path_provider/path_provider.dart';
 import '../../domain/entities/sync/sync.dart';
 import '../../domain/usecases/sync/sync.dart';
 import '../../main/factories/sync/sync.dart';
+import '../../../providers/Model/highlight.dart';
 
 /// Responsável pela migração dos dados locais para o Firestore
 ///
@@ -59,9 +61,11 @@ class SyncMigrationService {
   /// Verifica se existe Marcações locais
   Future<bool> hasLocalHighlights() async {
     try {
-      final box = await Hive.openBox('BooksHighlights');
+      if (!Hive.isBoxOpen('BooksHighlights')) {
+        await Hive.openBox<BooksHighlights>('BooksHighlights');
+      }
+      final box = Hive.box<BooksHighlights>('BooksHighlights');
       final hasData = box.isNotEmpty;
-      await box.close();
       return hasData;
     } catch (e) {
       return false;
@@ -71,9 +75,11 @@ class SyncMigrationService {
   /// Verifica se existem notas locais
   Future<bool> hasLocalNotes() async {
     try {
-      final box = await Hive.openBox('Notes');
+      if (!Hive.isBoxOpen('Notes')) {
+        await Hive.openBox<BooksHighlights>('Notes');
+      }
+      final box = Hive.box<BooksHighlights>('Notes');
       final hasData = box.isNotEmpty;
-      await box.close();
       return hasData;
     } catch (e) {
       return false;
@@ -158,11 +164,14 @@ class SyncMigrationService {
     try {
       int itemsUploaded = 0;
 
+      debugPrint('🟢 Iniciando upload de dados locais...');
+
       // 1. Upload progress
       final progress = await _loadLocalProgress();
       if (progress != null) {
         await _uploadProgress(progress);
         itemsUploaded++;
+        debugPrint('✅ Progresso enviado');
       }
 
       // 2. Upload marcações
@@ -171,6 +180,7 @@ class SyncMigrationService {
         await _uploadHighlight(highlight);
         itemsUploaded++;
       }
+      debugPrint('✅ ${highlights.length} highlights enviados');
 
       // 3. Upload notas
       final notes = await _loadLocalNotes();
@@ -178,13 +188,16 @@ class SyncMigrationService {
         await _uploadNote(note);
         itemsUploaded++;
       }
+      debugPrint('✅ ${notes.length} notes enviadas');
 
       return MigrationResult.success(
         scenario: MigrationScenario.uploadedLocal,
         message: 'Uploaded $itemsUploaded items',
         itemsProcessed: itemsUploaded,
       );
-    } catch (e) {
+    } catch (e, stack) {
+      debugPrint('❌ Erro no upload: $e');
+      debugPrint(stack as String?);
       return MigrationResult.error('Upload failed: $e');
     }
   }
@@ -195,29 +208,36 @@ class SyncMigrationService {
     try {
       int itemsDownloaded = 0;
 
+      debugPrint('🟢 Iniciando download de dados da nuvem...');
+
       // 1. Download od progresso
       final progress = await _downloadProgress();
       if (progress != null) {
         await _saveLocalProgress(progress);
         itemsDownloaded++;
+        debugPrint('✅ Progresso baixado');
       }
 
       // 2. Download das marcaçÕes
       final highlights = await _downloadHighlights();
       await _saveLocalHighLights(highlights);
       itemsDownloaded += highlights.length;
+      debugPrint('✅ ${highlights.length} highlights baixados');
 
       // 3. Download das notas
       final notes = await _downloadNotes();
       await _saveLocalNotes(notes);
       itemsDownloaded += notes.length;
+      debugPrint('✅ ${notes.length} notes baixadas');
 
       return MigrationResult.success(
         scenario: MigrationScenario.downloadedCloud,
         message: 'Downloaded $itemsDownloaded items',
         itemsProcessed: itemsDownloaded,
       );
-    } catch (e) {
+    } catch (e, stack) {
+      debugPrint('❌ Erro no download: $e');
+      debugPrint(stack as String?);
       return MigrationResult.error('Download failed: $e');
     }
   }
@@ -234,85 +254,148 @@ class SyncMigrationService {
       }
 
       final jsonString = await file.readAsString();
-      final jsonList = json.decode(jsonString) as List<dynamic>;
+      final List<dynamic> progressList = json.decode(jsonString);
+
+      final days = <DayProgressEntity>[];
+
+      for (int dayIndex = 0; dayIndex < progressList.length; dayIndex++) {
+        final dayData = progressList[dayIndex];
+
+        final List<dynamic> bibleBooks = dayData['bible'] ?? [];
+        final books = <int>[];
+        final bibleReading = <List<bool>>[];
+
+        for (int bookIndex = 0; bookIndex < bibleBooks.length; bookIndex++) {
+          final bookData = bibleBooks[bookIndex];
+          final List<dynamic> chaptersData = bookData['chapters'] ?? [];
+
+          books.add(bookIndex);
+          bibleReading.add(chaptersData.cast<bool>());
+        }
+
+        days.add(DayProgressEntity(
+          complete: null,
+          books: books,
+          egwReadingCompleted: dayData['egwReadingCompleted'] as bool?,
+          bibleReading: bibleReading,
+        ));
+      }
 
       return ReadingProgressEntity(
-        days: jsonList.map((day) {
-          final dayMap = day as Map<String, dynamic>;
-          return DayProgressEntity(
-            complete: dayMap['complete'] as bool?,
-            books: (dayMap['books'] as List<dynamic>?)?.cast<int>(),
-            egwReadingCompleted: dayMap['egwReadingCompleted'] as bool?,
-            bibleReading: (dayMap['bibleReadin'] as List<dynamic>?)
-                ?.map((group) => (group as List<dynamic>).cast<bool>())
-                .toList(),
-          );
-        }).toList(),
+        days: days,
         lastUpdated: DateTime.now(),
       );
-    } catch (e) {
-      print('Error loading local progress: $e');
+    } catch (e, stack) {
+      debugPrint('❌ Error loading local progress: $e');
+      debugPrint(stack as String?);
       return null;
     }
   }
 
   Future<List<HighlightEntity>> _loadLocalHighlights() async {
     try {
-      final box = await Hive.openBox('BooksHighlights');
+      if (!Hive.isBoxOpen('BooksHighlights')) {
+        await Hive.openBox<BooksHighlights>('BooksHighlights');
+      }
+
+      final box = Hive.box<BooksHighlights>('BooksHighlights');
       final highlights = <HighlightEntity>[];
 
       for (final key in box.keys) {
-        final data = box.get(key);
-        if (data != null) {
-          highlights.add(
-            HighlightEntity(
-              id: key.toString(),
-              book: data['book'] ?? 0,
-              chapter: data['chapter'] ?? 0,
-              verse: data['verse'] ?? 0,
-              color: data['color'] ?? 'yellow',
-              text: data['text'],
-              createdAt: data['createdAt'] ?? DateTime.now(),
-            ),
-          );
+        final booksHighlights = box.get(key);
+        if (booksHighlights == null) continue;
+
+        // key format: "GEN-pt", "EXO-en"
+        final parts = key.toString().split('-');
+        final bookKey = parts[0];
+        final language = parts.length > 1 ? parts[1] : 'pt';
+
+        // Iterar por capítulos
+        for (final chapterHighlights in booksHighlights.chapters) {
+          final chapter = chapterHighlights.chapter;
+
+          // Iterar por marcações
+          for (final mark in chapterHighlights.marks) {
+            // FILTRAR: apenas highlights (sem nota)
+            if (mark.note != null && mark.note!.isNotEmpty) continue;
+
+            highlights.add(HighlightEntity(
+              id: '${bookKey}_${language}_${chapter}_${mark.start}_${mark.end}',
+              book: bookKey,
+              chapter: chapter,
+              verse: mark.start,
+              color: _colorIntToString(mark.color),
+              text: mark.description,
+              createdAt: mark.date,
+              language: language,
+              start: mark.start,
+              end: mark.end,
+              reference: mark.reference,
+              page: mark.page,
+              day: mark.day,
+            ));
+          }
         }
       }
-
-      await box.close();
       return highlights;
-    } catch (e) {
-      print('Error loading local highlights: $e');
+    } catch (e, stack) {
+      debugPrint('❌ Error loading local highlights: $e');
+      debugPrint(stack as String?);
       return [];
     }
   }
 
   Future<List<NoteEntity>> _loadLocalNotes() async {
     try {
-      final box = await Hive.openBox('Notes');
+      if (!Hive.isBoxOpen('Notes')) {
+        await Hive.openBox<BooksHighlights>('Notes');
+      }
+
+      final box = Hive.box<BooksHighlights>('Notes');
       final notes = <NoteEntity>[];
 
       for (final key in box.keys) {
-        final data = box.get(key);
+        final booksHighlights = box.get(key);
+        if (booksHighlights == null) continue;
 
-        if (data != null) {
-          notes.add(
-            NoteEntity(
-              id: key.toString(),
-              book: data['book'] ?? 0,
-              chapter: data['chapter'] ?? 0,
-              verse: data['verse'] ?? 0,
-              content: data['content'] ?? '',
-              createdAt: data['createdAt'] ?? DateTime.now(),
-              updatedAt: data['updatedAt'] ?? DateTime.now(),
-            ),
-          );
+        // key format: "GEN-pt", "PP-en"
+        final parts = key.toString().split('-');
+        final bookKey = parts[0];
+        final language = parts.length > 1 ? parts[1] : 'pt';
+
+        // Iterar por capítulos
+        for (final chapterHighlights in booksHighlights.chapters) {
+          final chapter = chapterHighlights.chapter;
+
+          // Iterar por marcações
+          for (final mark in chapterHighlights.marks) {
+            // FILTRAR: apenas notes (com nota)
+            if (mark.note == null || mark.note!.isEmpty) continue;
+
+            notes.add(NoteEntity(
+              id: '${bookKey}_${language}_${chapter}_${mark.start}_${mark.end}',
+              book: bookKey,
+              chapter: chapter,
+              verse: mark.start,
+              content: mark.note!,
+              createdAt: mark.date,
+              updatedAt: mark.date,
+              language: language,
+              start: mark.start,
+              end: mark.end,
+              textSnippet: mark.description,
+              reference: mark.reference,
+              page: mark.page,
+              day: mark.day,
+            ));
+          }
         }
       }
 
-      await box.close();
       return notes;
-    } catch (e) {
-      print('Error loading local notes: $e');
+    } catch (e, stack) {
+      debugPrint('❌ Error loading local notes: $e');
+      debugPrint(stack as String?);
       return [];
     }
   }
@@ -325,63 +408,144 @@ class SyncMigrationService {
       final file = File('${dir.path}/plan.pgs');
 
       final jsonList = progress.days.map((day) {
-        final map = <String, dynamic>{};
-        if (day.complete != null) map['complete'] = day.complete;
-        if (day.books != null) map['books'] = day.books;
-        if (day.egwReadingCompleted != null) {
-          map['egwReadingCompleted'] = day.egwReadingCompleted;
+        final bibleBooks = <Map<String, dynamic>>[];
+
+        if (day.bibleReading != null) {
+          for (final chapters in day.bibleReading!) {
+            bibleBooks.add({
+              'chapters': chapters,
+            });
+          }
         }
-        if (day.bibleReading != null) map['bibleReading'] = day.bibleReading;
-        return map;
+
+        return {
+          'bible': bibleBooks,
+          if (day.egwReadingCompleted != null)
+            'egwReadingCompleted': day.egwReadingCompleted,
+        };
       }).toList();
 
       await file.writeAsString(json.encode(jsonList));
-    } catch (e) {
-      print('Error saving local progress: $e');
+      debugPrint('✅ Progresso salvo localmente');
+    } catch (e, stack) {
+      debugPrint('❌ Error saving local progress: $e');
+      debugPrint(stack as String?);
     }
   }
 
   Future<void> _saveLocalHighLights(List<HighlightEntity> highlights) async {
     try {
-      final box = await Hive.openBox('BooksHighlights');
-      await box.clear();
-
-      for (final highlight in highlights) {
-        await box.put(highlight.id, {
-          'book': highlight.book,
-          'chapter': highlight.chapter,
-          'verse': highlight.verse,
-          'color': highlight.color,
-          'text': highlight.text,
-          'createdAt': highlight.createdAt,
-        });
+      if (!Hive.isBoxOpen('BooksHighlights')) {
+        await Hive.openBox<BooksHighlights>('BooksHighlights');
       }
 
-      await box.close();
-    } catch (e) {
-      print('Error saving local highlights: $e');
+      final box = Hive.box<BooksHighlights>('BooksHighlights');
+
+      // Agrupar por livro e idioma
+      final Map<String, BooksHighlights> booksMap = {};
+
+      for (final highlight in highlights) {
+        final key = '${highlight.book}-${highlight.language}';
+
+        if (!booksMap.containsKey(key)) {
+          booksMap[key] = BooksHighlights(
+            name: highlight.book,
+            key: highlight.book,
+            chapters: [],
+          );
+        }
+
+        final book = booksMap[key]!;
+        var chapter = book.getChapter(highlight.chapter);
+
+        if (chapter == null) {
+          chapter = ChapterHighlights(
+            chapter: highlight.chapter,
+            marks: [],
+          );
+          book.setChapter(chapter);
+        }
+
+        chapter.marks.add(TextMark(
+          start: highlight.start,
+          end: highlight.end,
+          color: _colorStringToInt(highlight.color),
+          description: highlight.text,
+          reference: highlight.reference,
+          date: highlight.createdAt,
+          page: highlight.page,
+          day: highlight.day,
+          note: null,
+        ));
+      }
+
+      // Salvar no Hive
+      for (final entry in booksMap.entries) {
+        await box.put(entry.key, entry.value);
+      }
+
+      debugPrint('✅ ${highlights.length} highlights salvos localmente');
+    } catch (e, stack) {
+      debugPrint('Error saving local highlights: $e');
+      debugPrint(stack as String?);
     }
   }
 
   Future<void> _saveLocalNotes(List<NoteEntity> notes) async {
     try {
-      final box = await Hive.openBox('Notes');
-      await box.clear();
-
-      for (final note in notes) {
-        await box.put(note.id, {
-          'book': note.book,
-          'chapter': note.chapter,
-          'verse': note.verse,
-          'content': note.content,
-          'createdAt': note.createdAt,
-          'updatedAt': note.updatedAt,
-        });
+      if (!Hive.isBoxOpen('Notes')) {
+        await Hive.openBox<BooksHighlights>('Notes');
       }
 
-      await box.close();
-    } catch (e) {
-      print('Error savind local notes: $e');
+      final box = Hive.box<BooksHighlights>('Notes');
+
+      // Agrupar por livro e idioma
+      final Map<String, BooksHighlights> booksMap = {};
+
+      for (final note in notes) {
+        final key = '${note.book}-${note.language}';
+
+        if (!booksMap.containsKey(key)) {
+          booksMap[key] = BooksHighlights(
+            name: note.book,
+            key: note.book,
+            chapters: [],
+          );
+        }
+
+        final book = booksMap[key]!;
+        var chapter = book.getChapter(note.chapter);
+
+        if (chapter == null) {
+          chapter = ChapterHighlights(
+            chapter: note.chapter,
+            marks: [],
+          );
+          book.setChapter(chapter);
+        }
+
+        chapter.marks.add(TextMark(
+          start: note.start,
+          end: note.end,
+          color: 0, // Notas não têm cor
+          description: note.textSnippet,
+          reference: note.reference,
+          date: note.createdAt,
+          page: note.page,
+          day: note.day,
+          note: note.content,
+        ));
+      }
+
+      // Salvar no Hive
+      for (final entry in booksMap.entries) {
+        await box.put(entry.key, entry.value);
+      }
+
+      debugPrint('✅ ${notes.length} notes salvas localmente');
+    } catch (e, stack) {
+      debugPrint('❌ Error savind local notes: $e');
+      debugPrint(stack as String?);
     }
   }
 
@@ -408,6 +572,44 @@ class SyncMigrationService {
     } catch (e) {
       return null;
     }
+  }
+}
+
+/// Converte int ARGB para String de cor (ficou meio racista isso)
+String _colorIntToString(int colorInt) {
+  if (colorInt == 0) return 'none';
+
+  // cores
+  if (colorInt == 0xFFFFFF00) return 'yellow';
+  if (colorInt == 0xFF00FF00) return 'green';
+  if (colorInt == 0xFF0000FF) return 'blue';
+  if (colorInt == 0xFFFF0000) return 'red';
+  if (colorInt == 0xFFFF00FF) return 'pink';
+
+  return '#${colorInt.toRadixString(16).padLeft(8, '0').substring(2)}';
+}
+
+/// Converte String de cor para int ARGB
+int _colorStringToInt(String color) {
+  switch (color.toLowerCase()) {
+    case 'yellow':
+      return 0xFFFFFF00;
+    case 'green':
+      return 0xFF00FF00;
+    case 'blue':
+      return 0xFF0000FF;
+    case 'red':
+      return 0xFFFF0000;
+    case 'pink':
+      return 0xFFFF00FF;
+    case 'none':
+      return 0;
+    default:
+      // Tentar converter de hex
+      if (color.startsWith('#')) {
+        return int.tryParse('0xFF${color.substring(1)}') ?? 0xFFFFFF00;
+      }
+      return 0xFFFFFF00; // Default amarelo
   }
 }
 
